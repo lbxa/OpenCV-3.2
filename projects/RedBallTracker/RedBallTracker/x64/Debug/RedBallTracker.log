@@ -1,0 +1,4 @@
+﻿  RedBallTracker.cpp
+c:\lucas\programming\opencv\projects\redballtracker\redballtracker\redballtracker.cpp(7): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+  RedBallTracker.vcxproj -> C:\LUCAS\Programming\OpenCV\projects\RedBallTracker\x64\Debug\RedBallTracker.exe
+  RedBallTracker.vcxproj -> C:\LUCAS\Programming\OpenCV\projects\RedBallTracker\x64\Debug\RedBallTracker.pdb (Partial PDB)
