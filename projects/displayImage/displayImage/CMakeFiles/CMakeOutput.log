@@ -1,0 +1,1352 @@
+The system is: Windows - 10.0.14393 - AMD64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler:  
+Build flags: 
+Id flags:  
+
+The output was:
+0
+Microsoft (R) Build Engine version 15.1.548.43366
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 8/04/2017 7:55:16 PM.
+Project "C:\LUCAS\Programming\OpenCV\projects\displayImage\displayImage\CMakeFiles\3.8.0-rc4\CompilerIdC\CompilerIdC.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "Debug\".
+  Creating directory "Debug\CompilerIdC.tlog\".
+InitializeBuildStatus:
+  Creating "Debug\CompilerIdC.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.10.25017\bin\HostX86\x86\CL.exe /c /nologo /W0 /WX- /diagnostics:classic /Od /Oy- /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc141.pdb" /Gd /TC /analyze- /errorReport:queue CMakeCCompilerId.c
+  CMakeCCompilerId.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.10.25017\bin\HostX86\x86\link.exe /ERRORREPORT:QUEUE /OUT:".\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\CompilerIdC.lib" /MACHINE:X86 /SAFESEH Debug\CMakeCCompilerId.obj
+  CompilerIdC.vcxproj -> C:\LUCAS\Programming\OpenCV\projects\displayImage\displayImage\CMakeFiles\3.8.0-rc4\CompilerIdC\.\CompilerIdC.exe
+PostBuildEvent:
+  for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+  :VCEnd
+  CMAKE_C_COMPILER=C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.10.25017\bin\HostX86\x86\cl.exe
+FinalizeBuildStatus:
+  Deleting file "Debug\CompilerIdC.tlog\unsuccessfulbuild".
+  Touching "Debug\CompilerIdC.tlog\CompilerIdC.lastbuildstate".
+Done Building Project "C:\LUCAS\Programming\OpenCV\projects\displayImage\displayImage\CMakeFiles\3.8.0-rc4\CompilerIdC\CompilerIdC.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:02.44
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+
+The C compiler identification is MSVC, found in "C:/LUCAS/Programming/OpenCV/projects/displayImage/displayImage/CMakeFiles/3.8.0-rc4/CompilerIdC/CompilerIdC.exe"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler:  
+Build flags: 
+Id flags:  
+
+The output was:
+0
+Microsoft (R) Build Engine version 15.1.548.43366
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 8/04/2017 7:55:19 PM.
+Project "C:\LUCAS\Programming\OpenCV\projects\displayImage\displayImage\CMakeFiles\3.8.0-rc4\CompilerIdCXX\CompilerIdCXX.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "Debug\".
+  Creating directory "Debug\CompilerIdCXX.tlog\".
+InitializeBuildStatus:
+  Creating "Debug\CompilerIdCXX.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.10.25017\bin\HostX86\x86\CL.exe /c /nologo /W0 /WX- /diagnostics:classic /Od /Oy- /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc141.pdb" /Gd /TP /analyze- /errorReport:queue CMakeCXXCompilerId.cpp
+  CMakeCXXCompilerId.cpp
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.10.25017\bin\HostX86\x86\link.exe /ERRORREPORT:QUEUE /OUT:".\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\CompilerIdCXX.lib" /MACHINE:X86 /SAFESEH Debug\CMakeCXXCompilerId.obj
+  CompilerIdCXX.vcxproj -> C:\LUCAS\Programming\OpenCV\projects\displayImage\displayImage\CMakeFiles\3.8.0-rc4\CompilerIdCXX\.\CompilerIdCXX.exe
+PostBuildEvent:
+  for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+  :VCEnd
+  CMAKE_CXX_COMPILER=C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.10.25017\bin\HostX86\x86\cl.exe
+FinalizeBuildStatus:
+  Deleting file "Debug\CompilerIdCXX.tlog\unsuccessfulbuild".
+  Touching "Debug\CompilerIdCXX.tlog\CompilerIdCXX.lastbuildstate".
+Done Building Project "C:\LUCAS\Programming\OpenCV\projects\displayImage\displayImage\CMakeFiles\3.8.0-rc4\CompilerIdCXX\CompilerIdCXX.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.24
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+
+The CXX compiler identification is MSVC, found in "C:/LUCAS/Programming/OpenCV/projects/displayImage/displayImage/CMakeFiles/3.8.0-rc4/CompilerIdCXX/CompilerIdCXX.exe"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: C:/LUCAS/Programming/OpenCV/projects/displayImage/displayImage/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:\Program Files (x86)\Microsoft Visual Studio\2017\Community/MSBuild/15.0/Bin/MSBuild.exe" "cmTC_8f681.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=15.0"
+Microsoft (R) Build Engine version 15.1.548.43366
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 8/04/2017 7:55:20 PM.
+Project "C:\LUCAS\Programming\OpenCV\projects\displayImage\displayImage\CMakeFiles\CMakeTmp\cmTC_8f681.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_8f681.dir\Debug\".
+  Creating directory "C:\LUCAS\Programming\OpenCV\projects\displayImage\displayImage\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_8f681.dir\Debug\cmTC_8f681.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_8f681.dir\Debug\cmTC_8f681.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.10.25017\bin\HostX86\x86\CL.exe /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_8f681.dir\Debug\\" /Fd"cmTC_8f681.dir\Debug\vc141.pdb" /Gd /TC /analyze- /errorReport:queue C:\LUCAS\Programming\OpenCV\projects\displayImage\displayImage\CMakeFiles\CMakeTmp\testCCompiler.c
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.10.25017 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_8f681.dir\Debug\\" /Fd"cmTC_8f681.dir\Debug\vc141.pdb" /Gd /TC /analyze- /errorReport:queue C:\LUCAS\Programming\OpenCV\projects\displayImage\displayImage\CMakeFiles\CMakeTmp\testCCompiler.c
+  testCCompiler.c
+  
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.10.25017\bin\HostX86\x86\link.exe /ERRORREPORT:QUEUE /OUT:"C:\LUCAS\Programming\OpenCV\projects\displayImage\displayImage\CMakeFiles\CMakeTmp\Debug\cmTC_8f681.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/LUCAS/Programming/OpenCV/projects/displayImage/displayImage/CMakeFiles/CMakeTmp/Debug/cmTC_8f681.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/LUCAS/Programming/OpenCV/projects/displayImage/displayImage/CMakeFiles/CMakeTmp/Debug/cmTC_8f681.lib" /MACHINE:X86 /SAFESEH   /machine:X86 cmTC_8f681.dir\Debug\testCCompiler.obj
+  cmTC_8f681.vcxproj -> C:\LUCAS\Programming\OpenCV\projects\displayImage\displayImage\CMakeFiles\CMakeTmp\Debug\cmTC_8f681.exe
+FinalizeBuildStatus:
+  Deleting file "cmTC_8f681.dir\Debug\cmTC_8f681.tlog\unsuccessfulbuild".
+  Touching "cmTC_8f681.dir\Debug\cmTC_8f681.tlog\cmTC_8f681.lastbuildstate".
+Done Building Project "C:\LUCAS\Programming\OpenCV\projects\displayImage\displayImage\CMakeFiles\CMakeTmp\cmTC_8f681.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.60
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: C:/LUCAS/Programming/OpenCV/projects/displayImage/displayImage/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:\Program Files (x86)\Microsoft Visual Studio\2017\Community/MSBuild/15.0/Bin/MSBuild.exe" "cmTC_b256c.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=15.0"
+Microsoft (R) Build Engine version 15.1.548.43366
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 8/04/2017 7:55:22 PM.
+Project "C:\LUCAS\Programming\OpenCV\projects\displayImage\displayImage\CMakeFiles\CMakeTmp\cmTC_b256c.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_b256c.dir\Debug\".
+  Creating directory "C:\LUCAS\Programming\OpenCV\projects\displayImage\displayImage\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_b256c.dir\Debug\cmTC_b256c.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_b256c.dir\Debug\cmTC_b256c.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.10.25017\bin\HostX86\x86\CL.exe /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_b256c.dir\Debug\\" /Fd"cmTC_b256c.dir\Debug\vc141.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeCCompilerABI.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.10.25017 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_b256c.dir\Debug\\" /Fd"cmTC_b256c.dir\Debug\vc141.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeCCompilerABI.c"
+  CMakeCCompilerABI.c
+  
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.10.25017\bin\HostX86\x86\link.exe /ERRORREPORT:QUEUE /OUT:"C:\LUCAS\Programming\OpenCV\projects\displayImage\displayImage\CMakeFiles\CMakeTmp\Debug\cmTC_b256c.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/LUCAS/Programming/OpenCV/projects/displayImage/displayImage/CMakeFiles/CMakeTmp/Debug/cmTC_b256c.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/LUCAS/Programming/OpenCV/projects/displayImage/displayImage/CMakeFiles/CMakeTmp/Debug/cmTC_b256c.lib" /MACHINE:X86 /SAFESEH   /machine:X86 cmTC_b256c.dir\Debug\CMakeCCompilerABI.obj
+  cmTC_b256c.vcxproj -> C:\LUCAS\Programming\OpenCV\projects\displayImage\displayImage\CMakeFiles\CMakeTmp\Debug\cmTC_b256c.exe
+FinalizeBuildStatus:
+  Deleting file "cmTC_b256c.dir\Debug\cmTC_b256c.tlog\unsuccessfulbuild".
+  Touching "cmTC_b256c.dir\Debug\cmTC_b256c.tlog\cmTC_b256c.lastbuildstate".
+Done Building Project "C:\LUCAS\Programming\OpenCV\projects\displayImage\displayImage\CMakeFiles\CMakeTmp\cmTC_b256c.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.24
+
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: C:/LUCAS/Programming/OpenCV/projects/displayImage/displayImage/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:\Program Files (x86)\Microsoft Visual Studio\2017\Community/MSBuild/15.0/Bin/MSBuild.exe" "cmTC_f119a.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=15.0"
+Microsoft (R) Build Engine version 15.1.548.43366
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 8/04/2017 7:55:24 PM.
+Project "C:\LUCAS\Programming\OpenCV\projects\displayImage\displayImage\CMakeFiles\CMakeTmp\cmTC_f119a.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_f119a.dir\Debug\".
+  Creating directory "C:\LUCAS\Programming\OpenCV\projects\displayImage\displayImage\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_f119a.dir\Debug\cmTC_f119a.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_f119a.dir\Debug\cmTC_f119a.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.10.25017\bin\HostX86\x86\CL.exe /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_f119a.dir\Debug\\" /Fd"cmTC_f119a.dir\Debug\vc141.pdb" /Gd /TP /analyze- /errorReport:queue C:\LUCAS\Programming\OpenCV\projects\displayImage\displayImage\CMakeFiles\CMakeTmp\testCXXCompiler.cxx
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.10.25017 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_f119a.dir\Debug\\" /Fd"cmTC_f119a.dir\Debug\vc141.pdb" /Gd /TP /analyze- /errorReport:queue C:\LUCAS\Programming\OpenCV\projects\displayImage\displayImage\CMakeFiles\CMakeTmp\testCXXCompiler.cxx
+  testCXXCompiler.cxx
+  
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.10.25017\bin\HostX86\x86\link.exe /ERRORREPORT:QUEUE /OUT:"C:\LUCAS\Programming\OpenCV\projects\displayImage\displayImage\CMakeFiles\CMakeTmp\Debug\cmTC_f119a.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/LUCAS/Programming/OpenCV/projects/displayImage/displayImage/CMakeFiles/CMakeTmp/Debug/cmTC_f119a.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/LUCAS/Programming/OpenCV/projects/displayImage/displayImage/CMakeFiles/CMakeTmp/Debug/cmTC_f119a.lib" /MACHINE:X86 /SAFESEH   /machine:X86 cmTC_f119a.dir\Debug\testCXXCompiler.obj
+  cmTC_f119a.vcxproj -> C:\LUCAS\Programming\OpenCV\projects\displayImage\displayImage\CMakeFiles\CMakeTmp\Debug\cmTC_f119a.exe
+FinalizeBuildStatus:
+  Deleting file "cmTC_f119a.dir\Debug\cmTC_f119a.tlog\unsuccessfulbuild".
+  Touching "cmTC_f119a.dir\Debug\cmTC_f119a.tlog\cmTC_f119a.lastbuildstate".
+Done Building Project "C:\LUCAS\Programming\OpenCV\projects\displayImage\displayImage\CMakeFiles\CMakeTmp\cmTC_f119a.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.28
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: C:/LUCAS/Programming/OpenCV/projects/displayImage/displayImage/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:\Program Files (x86)\Microsoft Visual Studio\2017\Community/MSBuild/15.0/Bin/MSBuild.exe" "cmTC_2501f.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=15.0"
+Microsoft (R) Build Engine version 15.1.548.43366
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 8/04/2017 7:55:25 PM.
+Project "C:\LUCAS\Programming\OpenCV\projects\displayImage\displayImage\CMakeFiles\CMakeTmp\cmTC_2501f.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_2501f.dir\Debug\".
+  Creating directory "C:\LUCAS\Programming\OpenCV\projects\displayImage\displayImage\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_2501f.dir\Debug\cmTC_2501f.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_2501f.dir\Debug\cmTC_2501f.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.10.25017\bin\HostX86\x86\CL.exe /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_2501f.dir\Debug\\" /Fd"cmTC_2501f.dir\Debug\vc141.pdb" /Gd /TP /analyze- /errorReport:queue "C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeCXXCompilerABI.cpp"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.10.25017 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_2501f.dir\Debug\\" /Fd"cmTC_2501f.dir\Debug\vc141.pdb" /Gd /TP /analyze- /errorReport:queue "C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeCXXCompilerABI.cpp"
+  CMakeCXXCompilerABI.cpp
+  
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.10.25017\bin\HostX86\x86\link.exe /ERRORREPORT:QUEUE /OUT:"C:\LUCAS\Programming\OpenCV\projects\displayImage\displayImage\CMakeFiles\CMakeTmp\Debug\cmTC_2501f.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/LUCAS/Programming/OpenCV/projects/displayImage/displayImage/CMakeFiles/CMakeTmp/Debug/cmTC_2501f.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/LUCAS/Programming/OpenCV/projects/displayImage/displayImage/CMakeFiles/CMakeTmp/Debug/cmTC_2501f.lib" /MACHINE:X86 /SAFESEH   /machine:X86 cmTC_2501f.dir\Debug\CMakeCXXCompilerABI.obj
+  cmTC_2501f.vcxproj -> C:\LUCAS\Programming\OpenCV\projects\displayImage\displayImage\CMakeFiles\CMakeTmp\Debug\cmTC_2501f.exe
+FinalizeBuildStatus:
+  Deleting file "cmTC_2501f.dir\Debug\cmTC_2501f.tlog\unsuccessfulbuild".
+  Touching "cmTC_2501f.dir\Debug\cmTC_2501f.tlog\cmTC_2501f.lastbuildstate".
+Done Building Project "C:\LUCAS\Programming\OpenCV\projects\displayImage\displayImage\CMakeFiles\CMakeTmp\cmTC_2501f.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.28
+
+
+
+
+Detecting CXX [] compiler features compiled with the following output:
+Change Dir: C:/LUCAS/Programming/OpenCV/projects/displayImage/displayImage/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:\Program Files (x86)\Microsoft Visual Studio\2017\Community/MSBuild/15.0/Bin/MSBuild.exe" "cmTC_6eaeb.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=15.0"
+Microsoft (R) Build Engine version 15.1.548.43366
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 8/04/2017 7:55:27 PM.
+Project "C:\LUCAS\Programming\OpenCV\projects\displayImage\displayImage\CMakeFiles\CMakeTmp\cmTC_6eaeb.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_6eaeb.dir\Debug\".
+  Creating directory "C:\LUCAS\Programming\OpenCV\projects\displayImage\displayImage\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_6eaeb.dir\Debug\cmTC_6eaeb.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_6eaeb.dir\Debug\cmTC_6eaeb.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.10.25017\bin\HostX86\x86\CL.exe /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_6eaeb.dir\Debug\\" /Fd"cmTC_6eaeb.dir\Debug\vc141.pdb" /Gd /TP /analyze- /errorReport:queue C:\LUCAS\Programming\OpenCV\projects\displayImage\displayImage\CMakeFiles\feature_tests.cxx
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.10.25017 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_6eaeb.dir\Debug\\" /Fd"cmTC_6eaeb.dir\Debug\vc141.pdb" /Gd /TP /analyze- /errorReport:queue C:\LUCAS\Programming\OpenCV\projects\displayImage\displayImage\CMakeFiles\feature_tests.cxx
+  feature_tests.cxx
+  
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.10.25017\bin\HostX86\x86\link.exe /ERRORREPORT:QUEUE /OUT:"C:\LUCAS\Programming\OpenCV\projects\displayImage\displayImage\CMakeFiles\CMakeTmp\Debug\cmTC_6eaeb.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/LUCAS/Programming/OpenCV/projects/displayImage/displayImage/CMakeFiles/CMakeTmp/Debug/cmTC_6eaeb.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/LUCAS/Programming/OpenCV/projects/displayImage/displayImage/CMakeFiles/CMakeTmp/Debug/cmTC_6eaeb.lib" /MACHINE:X86 /SAFESEH   /machine:X86 cmTC_6eaeb.dir\Debug\feature_tests.obj
+  cmTC_6eaeb.vcxproj -> C:\LUCAS\Programming\OpenCV\projects\displayImage\displayImage\CMakeFiles\CMakeTmp\Debug\cmTC_6eaeb.exe
+FinalizeBuildStatus:
+  Deleting file "cmTC_6eaeb.dir\Debug\cmTC_6eaeb.tlog\unsuccessfulbuild".
+  Touching "cmTC_6eaeb.dir\Debug\cmTC_6eaeb.tlog\cmTC_6eaeb.lastbuildstate".
+Done Building Project "C:\LUCAS\Programming\OpenCV\projects\displayImage\displayImage\CMakeFiles\CMakeTmp\cmTC_6eaeb.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.29
+
+
+    Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:1cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:1cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:1cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:1cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:1cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:1cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:1cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:1cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:1cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+The system is: Windows - 10.0.14393 - AMD64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler:  
+Build flags: 
+Id flags:  
+
+The output was:
+0
+Microsoft (R) Build Engine version 15.1.548.43366
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 8/04/2017 8:43:07 PM.
+Project "C:\LUCAS\Programming\OpenCV\projects\displayImage\displayImage\CMakeFiles\3.8.0-rc4\CompilerIdC\CompilerIdC.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "Debug\".
+  Creating directory "Debug\CompilerIdC.tlog\".
+InitializeBuildStatus:
+  Creating "Debug\CompilerIdC.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.10.25017\bin\HostX86\x64\CL.exe /c /nologo /W0 /WX- /diagnostics:classic /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc141.pdb" /Gd /TC /errorReport:queue CMakeCCompilerId.c
+  CMakeCCompilerId.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.10.25017\bin\HostX86\x64\link.exe /ERRORREPORT:QUEUE /OUT:".\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\CompilerIdC.lib" /MACHINE:X64 Debug\CMakeCCompilerId.obj
+  CompilerIdC.vcxproj -> C:\LUCAS\Programming\OpenCV\projects\displayImage\displayImage\CMakeFiles\3.8.0-rc4\CompilerIdC\.\CompilerIdC.exe
+PostBuildEvent:
+  for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+  :VCEnd
+  CMAKE_C_COMPILER=C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.10.25017\bin\HostX86\x64\cl.exe
+FinalizeBuildStatus:
+  Deleting file "Debug\CompilerIdC.tlog\unsuccessfulbuild".
+  Touching "Debug\CompilerIdC.tlog\CompilerIdC.lastbuildstate".
+Done Building Project "C:\LUCAS\Programming\OpenCV\projects\displayImage\displayImage\CMakeFiles\3.8.0-rc4\CompilerIdC\CompilerIdC.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.60
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+
+The C compiler identification is MSVC, found in "C:/LUCAS/Programming/OpenCV/projects/displayImage/displayImage/CMakeFiles/3.8.0-rc4/CompilerIdC/CompilerIdC.exe"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler:  
+Build flags: 
+Id flags:  
+
+The output was:
+0
+Microsoft (R) Build Engine version 15.1.548.43366
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 8/04/2017 8:43:09 PM.
+Project "C:\LUCAS\Programming\OpenCV\projects\displayImage\displayImage\CMakeFiles\3.8.0-rc4\CompilerIdCXX\CompilerIdCXX.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "Debug\".
+  Creating directory "Debug\CompilerIdCXX.tlog\".
+InitializeBuildStatus:
+  Creating "Debug\CompilerIdCXX.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.10.25017\bin\HostX86\x64\CL.exe /c /nologo /W0 /WX- /diagnostics:classic /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc141.pdb" /Gd /TP /errorReport:queue CMakeCXXCompilerId.cpp
+  CMakeCXXCompilerId.cpp
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.10.25017\bin\HostX86\x64\link.exe /ERRORREPORT:QUEUE /OUT:".\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\CompilerIdCXX.lib" /MACHINE:X64 Debug\CMakeCXXCompilerId.obj
+  CompilerIdCXX.vcxproj -> C:\LUCAS\Programming\OpenCV\projects\displayImage\displayImage\CMakeFiles\3.8.0-rc4\CompilerIdCXX\.\CompilerIdCXX.exe
+PostBuildEvent:
+  for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+  :VCEnd
+  CMAKE_CXX_COMPILER=C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.10.25017\bin\HostX86\x64\cl.exe
+FinalizeBuildStatus:
+  Deleting file "Debug\CompilerIdCXX.tlog\unsuccessfulbuild".
+  Touching "Debug\CompilerIdCXX.tlog\CompilerIdCXX.lastbuildstate".
+Done Building Project "C:\LUCAS\Programming\OpenCV\projects\displayImage\displayImage\CMakeFiles\3.8.0-rc4\CompilerIdCXX\CompilerIdCXX.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.26
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+
+The CXX compiler identification is MSVC, found in "C:/LUCAS/Programming/OpenCV/projects/displayImage/displayImage/CMakeFiles/3.8.0-rc4/CompilerIdCXX/CompilerIdCXX.exe"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: C:/LUCAS/Programming/OpenCV/projects/displayImage/displayImage/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:\Program Files (x86)\Microsoft Visual Studio\2017\Community/MSBuild/15.0/Bin/MSBuild.exe" "cmTC_57f93.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=15.0"
+Microsoft (R) Build Engine version 15.1.548.43366
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 8/04/2017 8:43:11 PM.
+Project "C:\LUCAS\Programming\OpenCV\projects\displayImage\displayImage\CMakeFiles\CMakeTmp\cmTC_57f93.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_57f93.dir\Debug\".
+  Creating directory "C:\LUCAS\Programming\OpenCV\projects\displayImage\displayImage\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_57f93.dir\Debug\cmTC_57f93.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_57f93.dir\Debug\cmTC_57f93.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.10.25017\bin\HostX86\x64\CL.exe /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_57f93.dir\Debug\\" /Fd"cmTC_57f93.dir\Debug\vc141.pdb" /Gd /TC /errorReport:queue C:\LUCAS\Programming\OpenCV\projects\displayImage\displayImage\CMakeFiles\CMakeTmp\testCCompiler.c
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.10.25017 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_57f93.dir\Debug\\" /Fd"cmTC_57f93.dir\Debug\vc141.pdb" /Gd /TC /errorReport:queue C:\LUCAS\Programming\OpenCV\projects\displayImage\displayImage\CMakeFiles\CMakeTmp\testCCompiler.c
+  testCCompiler.c
+  
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.10.25017\bin\HostX86\x64\link.exe /ERRORREPORT:QUEUE /OUT:"C:\LUCAS\Programming\OpenCV\projects\displayImage\displayImage\CMakeFiles\CMakeTmp\Debug\cmTC_57f93.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/LUCAS/Programming/OpenCV/projects/displayImage/displayImage/CMakeFiles/CMakeTmp/Debug/cmTC_57f93.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/LUCAS/Programming/OpenCV/projects/displayImage/displayImage/CMakeFiles/CMakeTmp/Debug/cmTC_57f93.lib" /MACHINE:X64   /machine:x64 cmTC_57f93.dir\Debug\testCCompiler.obj
+  cmTC_57f93.vcxproj -> C:\LUCAS\Programming\OpenCV\projects\displayImage\displayImage\CMakeFiles\CMakeTmp\Debug\cmTC_57f93.exe
+FinalizeBuildStatus:
+  Deleting file "cmTC_57f93.dir\Debug\cmTC_57f93.tlog\unsuccessfulbuild".
+  Touching "cmTC_57f93.dir\Debug\cmTC_57f93.tlog\cmTC_57f93.lastbuildstate".
+Done Building Project "C:\LUCAS\Programming\OpenCV\projects\displayImage\displayImage\CMakeFiles\CMakeTmp\cmTC_57f93.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.54
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: C:/LUCAS/Programming/OpenCV/projects/displayImage/displayImage/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:\Program Files (x86)\Microsoft Visual Studio\2017\Community/MSBuild/15.0/Bin/MSBuild.exe" "cmTC_51e14.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=15.0"
+Microsoft (R) Build Engine version 15.1.548.43366
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 8/04/2017 8:43:12 PM.
+Project "C:\LUCAS\Programming\OpenCV\projects\displayImage\displayImage\CMakeFiles\CMakeTmp\cmTC_51e14.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_51e14.dir\Debug\".
+  Creating directory "C:\LUCAS\Programming\OpenCV\projects\displayImage\displayImage\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_51e14.dir\Debug\cmTC_51e14.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_51e14.dir\Debug\cmTC_51e14.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.10.25017\bin\HostX86\x64\CL.exe /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_51e14.dir\Debug\\" /Fd"cmTC_51e14.dir\Debug\vc141.pdb" /Gd /TC /errorReport:queue "C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeCCompilerABI.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.10.25017 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_51e14.dir\Debug\\" /Fd"cmTC_51e14.dir\Debug\vc141.pdb" /Gd /TC /errorReport:queue "C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeCCompilerABI.c"
+  CMakeCCompilerABI.c
+  
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.10.25017\bin\HostX86\x64\link.exe /ERRORREPORT:QUEUE /OUT:"C:\LUCAS\Programming\OpenCV\projects\displayImage\displayImage\CMakeFiles\CMakeTmp\Debug\cmTC_51e14.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/LUCAS/Programming/OpenCV/projects/displayImage/displayImage/CMakeFiles/CMakeTmp/Debug/cmTC_51e14.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/LUCAS/Programming/OpenCV/projects/displayImage/displayImage/CMakeFiles/CMakeTmp/Debug/cmTC_51e14.lib" /MACHINE:X64   /machine:x64 cmTC_51e14.dir\Debug\CMakeCCompilerABI.obj
+  cmTC_51e14.vcxproj -> C:\LUCAS\Programming\OpenCV\projects\displayImage\displayImage\CMakeFiles\CMakeTmp\Debug\cmTC_51e14.exe
+FinalizeBuildStatus:
+  Deleting file "cmTC_51e14.dir\Debug\cmTC_51e14.tlog\unsuccessfulbuild".
+  Touching "cmTC_51e14.dir\Debug\cmTC_51e14.tlog\cmTC_51e14.lastbuildstate".
+Done Building Project "C:\LUCAS\Programming\OpenCV\projects\displayImage\displayImage\CMakeFiles\CMakeTmp\cmTC_51e14.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.23
+
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: C:/LUCAS/Programming/OpenCV/projects/displayImage/displayImage/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:\Program Files (x86)\Microsoft Visual Studio\2017\Community/MSBuild/15.0/Bin/MSBuild.exe" "cmTC_eb0df.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=15.0"
+Microsoft (R) Build Engine version 15.1.548.43366
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 8/04/2017 8:43:14 PM.
+Project "C:\LUCAS\Programming\OpenCV\projects\displayImage\displayImage\CMakeFiles\CMakeTmp\cmTC_eb0df.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_eb0df.dir\Debug\".
+  Creating directory "C:\LUCAS\Programming\OpenCV\projects\displayImage\displayImage\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_eb0df.dir\Debug\cmTC_eb0df.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_eb0df.dir\Debug\cmTC_eb0df.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.10.25017\bin\HostX86\x64\CL.exe /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_eb0df.dir\Debug\\" /Fd"cmTC_eb0df.dir\Debug\vc141.pdb" /Gd /TP /errorReport:queue C:\LUCAS\Programming\OpenCV\projects\displayImage\displayImage\CMakeFiles\CMakeTmp\testCXXCompiler.cxx
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.10.25017 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_eb0df.dir\Debug\\" /Fd"cmTC_eb0df.dir\Debug\vc141.pdb" /Gd /TP /errorReport:queue C:\LUCAS\Programming\OpenCV\projects\displayImage\displayImage\CMakeFiles\CMakeTmp\testCXXCompiler.cxx
+  testCXXCompiler.cxx
+  
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.10.25017\bin\HostX86\x64\link.exe /ERRORREPORT:QUEUE /OUT:"C:\LUCAS\Programming\OpenCV\projects\displayImage\displayImage\CMakeFiles\CMakeTmp\Debug\cmTC_eb0df.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/LUCAS/Programming/OpenCV/projects/displayImage/displayImage/CMakeFiles/CMakeTmp/Debug/cmTC_eb0df.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/LUCAS/Programming/OpenCV/projects/displayImage/displayImage/CMakeFiles/CMakeTmp/Debug/cmTC_eb0df.lib" /MACHINE:X64   /machine:x64 cmTC_eb0df.dir\Debug\testCXXCompiler.obj
+  cmTC_eb0df.vcxproj -> C:\LUCAS\Programming\OpenCV\projects\displayImage\displayImage\CMakeFiles\CMakeTmp\Debug\cmTC_eb0df.exe
+FinalizeBuildStatus:
+  Deleting file "cmTC_eb0df.dir\Debug\cmTC_eb0df.tlog\unsuccessfulbuild".
+  Touching "cmTC_eb0df.dir\Debug\cmTC_eb0df.tlog\cmTC_eb0df.lastbuildstate".
+Done Building Project "C:\LUCAS\Programming\OpenCV\projects\displayImage\displayImage\CMakeFiles\CMakeTmp\cmTC_eb0df.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.29
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: C:/LUCAS/Programming/OpenCV/projects/displayImage/displayImage/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:\Program Files (x86)\Microsoft Visual Studio\2017\Community/MSBuild/15.0/Bin/MSBuild.exe" "cmTC_38c82.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=15.0"
+Microsoft (R) Build Engine version 15.1.548.43366
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 8/04/2017 8:43:16 PM.
+Project "C:\LUCAS\Programming\OpenCV\projects\displayImage\displayImage\CMakeFiles\CMakeTmp\cmTC_38c82.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_38c82.dir\Debug\".
+  Creating directory "C:\LUCAS\Programming\OpenCV\projects\displayImage\displayImage\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_38c82.dir\Debug\cmTC_38c82.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_38c82.dir\Debug\cmTC_38c82.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.10.25017\bin\HostX86\x64\CL.exe /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_38c82.dir\Debug\\" /Fd"cmTC_38c82.dir\Debug\vc141.pdb" /Gd /TP /errorReport:queue "C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeCXXCompilerABI.cpp"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.10.25017 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_38c82.dir\Debug\\" /Fd"cmTC_38c82.dir\Debug\vc141.pdb" /Gd /TP /errorReport:queue "C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeCXXCompilerABI.cpp"
+  CMakeCXXCompilerABI.cpp
+  
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.10.25017\bin\HostX86\x64\link.exe /ERRORREPORT:QUEUE /OUT:"C:\LUCAS\Programming\OpenCV\projects\displayImage\displayImage\CMakeFiles\CMakeTmp\Debug\cmTC_38c82.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/LUCAS/Programming/OpenCV/projects/displayImage/displayImage/CMakeFiles/CMakeTmp/Debug/cmTC_38c82.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/LUCAS/Programming/OpenCV/projects/displayImage/displayImage/CMakeFiles/CMakeTmp/Debug/cmTC_38c82.lib" /MACHINE:X64   /machine:x64 cmTC_38c82.dir\Debug\CMakeCXXCompilerABI.obj
+  cmTC_38c82.vcxproj -> C:\LUCAS\Programming\OpenCV\projects\displayImage\displayImage\CMakeFiles\CMakeTmp\Debug\cmTC_38c82.exe
+FinalizeBuildStatus:
+  Deleting file "cmTC_38c82.dir\Debug\cmTC_38c82.tlog\unsuccessfulbuild".
+  Touching "cmTC_38c82.dir\Debug\cmTC_38c82.tlog\cmTC_38c82.lastbuildstate".
+Done Building Project "C:\LUCAS\Programming\OpenCV\projects\displayImage\displayImage\CMakeFiles\CMakeTmp\cmTC_38c82.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.24
+
+
+
+
+Detecting CXX [] compiler features compiled with the following output:
+Change Dir: C:/LUCAS/Programming/OpenCV/projects/displayImage/displayImage/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:\Program Files (x86)\Microsoft Visual Studio\2017\Community/MSBuild/15.0/Bin/MSBuild.exe" "cmTC_147f9.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=15.0"
+Microsoft (R) Build Engine version 15.1.548.43366
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 8/04/2017 8:43:17 PM.
+Project "C:\LUCAS\Programming\OpenCV\projects\displayImage\displayImage\CMakeFiles\CMakeTmp\cmTC_147f9.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_147f9.dir\Debug\".
+  Creating directory "C:\LUCAS\Programming\OpenCV\projects\displayImage\displayImage\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_147f9.dir\Debug\cmTC_147f9.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_147f9.dir\Debug\cmTC_147f9.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.10.25017\bin\HostX86\x64\CL.exe /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_147f9.dir\Debug\\" /Fd"cmTC_147f9.dir\Debug\vc141.pdb" /Gd /TP /errorReport:queue C:\LUCAS\Programming\OpenCV\projects\displayImage\displayImage\CMakeFiles\feature_tests.cxx
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.10.25017 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_147f9.dir\Debug\\" /Fd"cmTC_147f9.dir\Debug\vc141.pdb" /Gd /TP /errorReport:queue C:\LUCAS\Programming\OpenCV\projects\displayImage\displayImage\CMakeFiles\feature_tests.cxx
+  feature_tests.cxx
+  
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.10.25017\bin\HostX86\x64\link.exe /ERRORREPORT:QUEUE /OUT:"C:\LUCAS\Programming\OpenCV\projects\displayImage\displayImage\CMakeFiles\CMakeTmp\Debug\cmTC_147f9.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/LUCAS/Programming/OpenCV/projects/displayImage/displayImage/CMakeFiles/CMakeTmp/Debug/cmTC_147f9.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/LUCAS/Programming/OpenCV/projects/displayImage/displayImage/CMakeFiles/CMakeTmp/Debug/cmTC_147f9.lib" /MACHINE:X64   /machine:x64 cmTC_147f9.dir\Debug\feature_tests.obj
+  cmTC_147f9.vcxproj -> C:\LUCAS\Programming\OpenCV\projects\displayImage\displayImage\CMakeFiles\CMakeTmp\Debug\cmTC_147f9.exe
+FinalizeBuildStatus:
+  Deleting file "cmTC_147f9.dir\Debug\cmTC_147f9.tlog\unsuccessfulbuild".
+  Touching "cmTC_147f9.dir\Debug\cmTC_147f9.tlog\cmTC_147f9.lastbuildstate".
+Done Building Project "C:\LUCAS\Programming\OpenCV\projects\displayImage\displayImage\CMakeFiles\CMakeTmp\cmTC_147f9.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.26
+
+
+    Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:1cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:1cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:1cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:1cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:1cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:1cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:1cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:1cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:1cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+The system is: Windows - 10.0.14393 - AMD64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler:  
+Build flags: 
+Id flags:  
+
+The output was:
+0
+Microsoft (R) Build Engine version 15.1.548.43366
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 8/04/2017 8:48:58 PM.
+Project "C:\LUCAS\Programming\OpenCV\projects\displayImage\displayImage\CMakeFiles\3.8.0-rc4\CompilerIdC\CompilerIdC.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "Debug\".
+  Creating directory "Debug\CompilerIdC.tlog\".
+InitializeBuildStatus:
+  Creating "Debug\CompilerIdC.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.10.25017\bin\HostX86\x86\CL.exe /c /nologo /W0 /WX- /diagnostics:classic /Od /Oy- /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc141.pdb" /Gd /TC /analyze- /errorReport:queue CMakeCCompilerId.c
+  CMakeCCompilerId.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.10.25017\bin\HostX86\x86\link.exe /ERRORREPORT:QUEUE /OUT:".\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\CompilerIdC.lib" /MACHINE:X86 /SAFESEH Debug\CMakeCCompilerId.obj
+  CompilerIdC.vcxproj -> C:\LUCAS\Programming\OpenCV\projects\displayImage\displayImage\CMakeFiles\3.8.0-rc4\CompilerIdC\.\CompilerIdC.exe
+PostBuildEvent:
+  for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+  :VCEnd
+  CMAKE_C_COMPILER=C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.10.25017\bin\HostX86\x86\cl.exe
+FinalizeBuildStatus:
+  Deleting file "Debug\CompilerIdC.tlog\unsuccessfulbuild".
+  Touching "Debug\CompilerIdC.tlog\CompilerIdC.lastbuildstate".
+Done Building Project "C:\LUCAS\Programming\OpenCV\projects\displayImage\displayImage\CMakeFiles\3.8.0-rc4\CompilerIdC\CompilerIdC.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.03
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+
+The C compiler identification is MSVC, found in "C:/LUCAS/Programming/OpenCV/projects/displayImage/displayImage/CMakeFiles/3.8.0-rc4/CompilerIdC/CompilerIdC.exe"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler:  
+Build flags: 
+Id flags:  
+
+The output was:
+0
+Microsoft (R) Build Engine version 15.1.548.43366
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 8/04/2017 8:48:59 PM.
+Project "C:\LUCAS\Programming\OpenCV\projects\displayImage\displayImage\CMakeFiles\3.8.0-rc4\CompilerIdCXX\CompilerIdCXX.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "Debug\".
+  Creating directory "Debug\CompilerIdCXX.tlog\".
+InitializeBuildStatus:
+  Creating "Debug\CompilerIdCXX.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.10.25017\bin\HostX86\x86\CL.exe /c /nologo /W0 /WX- /diagnostics:classic /Od /Oy- /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc141.pdb" /Gd /TP /analyze- /errorReport:queue CMakeCXXCompilerId.cpp
+  CMakeCXXCompilerId.cpp
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.10.25017\bin\HostX86\x86\link.exe /ERRORREPORT:QUEUE /OUT:".\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\CompilerIdCXX.lib" /MACHINE:X86 /SAFESEH Debug\CMakeCXXCompilerId.obj
+  CompilerIdCXX.vcxproj -> C:\LUCAS\Programming\OpenCV\projects\displayImage\displayImage\CMakeFiles\3.8.0-rc4\CompilerIdCXX\.\CompilerIdCXX.exe
+PostBuildEvent:
+  for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+  :VCEnd
+  CMAKE_CXX_COMPILER=C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.10.25017\bin\HostX86\x86\cl.exe
+FinalizeBuildStatus:
+  Deleting file "Debug\CompilerIdCXX.tlog\unsuccessfulbuild".
+  Touching "Debug\CompilerIdCXX.tlog\CompilerIdCXX.lastbuildstate".
+Done Building Project "C:\LUCAS\Programming\OpenCV\projects\displayImage\displayImage\CMakeFiles\3.8.0-rc4\CompilerIdCXX\CompilerIdCXX.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.19
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+
+The CXX compiler identification is MSVC, found in "C:/LUCAS/Programming/OpenCV/projects/displayImage/displayImage/CMakeFiles/3.8.0-rc4/CompilerIdCXX/CompilerIdCXX.exe"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: C:/LUCAS/Programming/OpenCV/projects/displayImage/displayImage/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:\Program Files (x86)\Microsoft Visual Studio\2017\Community/MSBuild/15.0/Bin/MSBuild.exe" "cmTC_38987.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=15.0"
+Microsoft (R) Build Engine version 15.1.548.43366
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 8/04/2017 8:49:01 PM.
+Project "C:\LUCAS\Programming\OpenCV\projects\displayImage\displayImage\CMakeFiles\CMakeTmp\cmTC_38987.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_38987.dir\Debug\".
+  Creating directory "C:\LUCAS\Programming\OpenCV\projects\displayImage\displayImage\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_38987.dir\Debug\cmTC_38987.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_38987.dir\Debug\cmTC_38987.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.10.25017\bin\HostX86\x86\CL.exe /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_38987.dir\Debug\\" /Fd"cmTC_38987.dir\Debug\vc141.pdb" /Gd /TC /analyze- /errorReport:queue C:\LUCAS\Programming\OpenCV\projects\displayImage\displayImage\CMakeFiles\CMakeTmp\testCCompiler.c
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.10.25017 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_38987.dir\Debug\\" /Fd"cmTC_38987.dir\Debug\vc141.pdb" /Gd /TC /analyze- /errorReport:queue C:\LUCAS\Programming\OpenCV\projects\displayImage\displayImage\CMakeFiles\CMakeTmp\testCCompiler.c
+  testCCompiler.c
+  
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.10.25017\bin\HostX86\x86\link.exe /ERRORREPORT:QUEUE /OUT:"C:\LUCAS\Programming\OpenCV\projects\displayImage\displayImage\CMakeFiles\CMakeTmp\Debug\cmTC_38987.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/LUCAS/Programming/OpenCV/projects/displayImage/displayImage/CMakeFiles/CMakeTmp/Debug/cmTC_38987.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/LUCAS/Programming/OpenCV/projects/displayImage/displayImage/CMakeFiles/CMakeTmp/Debug/cmTC_38987.lib" /MACHINE:X86 /SAFESEH   /machine:X86 cmTC_38987.dir\Debug\testCCompiler.obj
+  cmTC_38987.vcxproj -> C:\LUCAS\Programming\OpenCV\projects\displayImage\displayImage\CMakeFiles\CMakeTmp\Debug\cmTC_38987.exe
+FinalizeBuildStatus:
+  Deleting file "cmTC_38987.dir\Debug\cmTC_38987.tlog\unsuccessfulbuild".
+  Touching "cmTC_38987.dir\Debug\cmTC_38987.tlog\cmTC_38987.lastbuildstate".
+Done Building Project "C:\LUCAS\Programming\OpenCV\projects\displayImage\displayImage\CMakeFiles\CMakeTmp\cmTC_38987.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.25
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: C:/LUCAS/Programming/OpenCV/projects/displayImage/displayImage/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:\Program Files (x86)\Microsoft Visual Studio\2017\Community/MSBuild/15.0/Bin/MSBuild.exe" "cmTC_b32b9.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=15.0"
+Microsoft (R) Build Engine version 15.1.548.43366
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 8/04/2017 8:49:02 PM.
+Project "C:\LUCAS\Programming\OpenCV\projects\displayImage\displayImage\CMakeFiles\CMakeTmp\cmTC_b32b9.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_b32b9.dir\Debug\".
+  Creating directory "C:\LUCAS\Programming\OpenCV\projects\displayImage\displayImage\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_b32b9.dir\Debug\cmTC_b32b9.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_b32b9.dir\Debug\cmTC_b32b9.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.10.25017\bin\HostX86\x86\CL.exe /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_b32b9.dir\Debug\\" /Fd"cmTC_b32b9.dir\Debug\vc141.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeCCompilerABI.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.10.25017 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_b32b9.dir\Debug\\" /Fd"cmTC_b32b9.dir\Debug\vc141.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeCCompilerABI.c"
+  CMakeCCompilerABI.c
+  
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.10.25017\bin\HostX86\x86\link.exe /ERRORREPORT:QUEUE /OUT:"C:\LUCAS\Programming\OpenCV\projects\displayImage\displayImage\CMakeFiles\CMakeTmp\Debug\cmTC_b32b9.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/LUCAS/Programming/OpenCV/projects/displayImage/displayImage/CMakeFiles/CMakeTmp/Debug/cmTC_b32b9.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/LUCAS/Programming/OpenCV/projects/displayImage/displayImage/CMakeFiles/CMakeTmp/Debug/cmTC_b32b9.lib" /MACHINE:X86 /SAFESEH   /machine:X86 cmTC_b32b9.dir\Debug\CMakeCCompilerABI.obj
+  cmTC_b32b9.vcxproj -> C:\LUCAS\Programming\OpenCV\projects\displayImage\displayImage\CMakeFiles\CMakeTmp\Debug\cmTC_b32b9.exe
+FinalizeBuildStatus:
+  Deleting file "cmTC_b32b9.dir\Debug\cmTC_b32b9.tlog\unsuccessfulbuild".
+  Touching "cmTC_b32b9.dir\Debug\cmTC_b32b9.tlog\cmTC_b32b9.lastbuildstate".
+Done Building Project "C:\LUCAS\Programming\OpenCV\projects\displayImage\displayImage\CMakeFiles\CMakeTmp\cmTC_b32b9.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.19
+
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: C:/LUCAS/Programming/OpenCV/projects/displayImage/displayImage/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:\Program Files (x86)\Microsoft Visual Studio\2017\Community/MSBuild/15.0/Bin/MSBuild.exe" "cmTC_b32f6.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=15.0"
+Microsoft (R) Build Engine version 15.1.548.43366
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 8/04/2017 8:49:04 PM.
+Project "C:\LUCAS\Programming\OpenCV\projects\displayImage\displayImage\CMakeFiles\CMakeTmp\cmTC_b32f6.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_b32f6.dir\Debug\".
+  Creating directory "C:\LUCAS\Programming\OpenCV\projects\displayImage\displayImage\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_b32f6.dir\Debug\cmTC_b32f6.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_b32f6.dir\Debug\cmTC_b32f6.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.10.25017\bin\HostX86\x86\CL.exe /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_b32f6.dir\Debug\\" /Fd"cmTC_b32f6.dir\Debug\vc141.pdb" /Gd /TP /analyze- /errorReport:queue C:\LUCAS\Programming\OpenCV\projects\displayImage\displayImage\CMakeFiles\CMakeTmp\testCXXCompiler.cxx
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.10.25017 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_b32f6.dir\Debug\\" /Fd"cmTC_b32f6.dir\Debug\vc141.pdb" /Gd /TP /analyze- /errorReport:queue C:\LUCAS\Programming\OpenCV\projects\displayImage\displayImage\CMakeFiles\CMakeTmp\testCXXCompiler.cxx
+  testCXXCompiler.cxx
+  
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.10.25017\bin\HostX86\x86\link.exe /ERRORREPORT:QUEUE /OUT:"C:\LUCAS\Programming\OpenCV\projects\displayImage\displayImage\CMakeFiles\CMakeTmp\Debug\cmTC_b32f6.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/LUCAS/Programming/OpenCV/projects/displayImage/displayImage/CMakeFiles/CMakeTmp/Debug/cmTC_b32f6.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/LUCAS/Programming/OpenCV/projects/displayImage/displayImage/CMakeFiles/CMakeTmp/Debug/cmTC_b32f6.lib" /MACHINE:X86 /SAFESEH   /machine:X86 cmTC_b32f6.dir\Debug\testCXXCompiler.obj
+  cmTC_b32f6.vcxproj -> C:\LUCAS\Programming\OpenCV\projects\displayImage\displayImage\CMakeFiles\CMakeTmp\Debug\cmTC_b32f6.exe
+FinalizeBuildStatus:
+  Deleting file "cmTC_b32f6.dir\Debug\cmTC_b32f6.tlog\unsuccessfulbuild".
+  Touching "cmTC_b32f6.dir\Debug\cmTC_b32f6.tlog\cmTC_b32f6.lastbuildstate".
+Done Building Project "C:\LUCAS\Programming\OpenCV\projects\displayImage\displayImage\CMakeFiles\CMakeTmp\cmTC_b32f6.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.19
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: C:/LUCAS/Programming/OpenCV/projects/displayImage/displayImage/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:\Program Files (x86)\Microsoft Visual Studio\2017\Community/MSBuild/15.0/Bin/MSBuild.exe" "cmTC_a6054.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=15.0"
+Microsoft (R) Build Engine version 15.1.548.43366
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 8/04/2017 8:49:05 PM.
+Project "C:\LUCAS\Programming\OpenCV\projects\displayImage\displayImage\CMakeFiles\CMakeTmp\cmTC_a6054.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_a6054.dir\Debug\".
+  Creating directory "C:\LUCAS\Programming\OpenCV\projects\displayImage\displayImage\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_a6054.dir\Debug\cmTC_a6054.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_a6054.dir\Debug\cmTC_a6054.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.10.25017\bin\HostX86\x86\CL.exe /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_a6054.dir\Debug\\" /Fd"cmTC_a6054.dir\Debug\vc141.pdb" /Gd /TP /analyze- /errorReport:queue "C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeCXXCompilerABI.cpp"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.10.25017 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_a6054.dir\Debug\\" /Fd"cmTC_a6054.dir\Debug\vc141.pdb" /Gd /TP /analyze- /errorReport:queue "C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeCXXCompilerABI.cpp"
+  CMakeCXXCompilerABI.cpp
+  
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.10.25017\bin\HostX86\x86\link.exe /ERRORREPORT:QUEUE /OUT:"C:\LUCAS\Programming\OpenCV\projects\displayImage\displayImage\CMakeFiles\CMakeTmp\Debug\cmTC_a6054.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/LUCAS/Programming/OpenCV/projects/displayImage/displayImage/CMakeFiles/CMakeTmp/Debug/cmTC_a6054.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/LUCAS/Programming/OpenCV/projects/displayImage/displayImage/CMakeFiles/CMakeTmp/Debug/cmTC_a6054.lib" /MACHINE:X86 /SAFESEH   /machine:X86 cmTC_a6054.dir\Debug\CMakeCXXCompilerABI.obj
+  cmTC_a6054.vcxproj -> C:\LUCAS\Programming\OpenCV\projects\displayImage\displayImage\CMakeFiles\CMakeTmp\Debug\cmTC_a6054.exe
+FinalizeBuildStatus:
+  Deleting file "cmTC_a6054.dir\Debug\cmTC_a6054.tlog\unsuccessfulbuild".
+  Touching "cmTC_a6054.dir\Debug\cmTC_a6054.tlog\cmTC_a6054.lastbuildstate".
+Done Building Project "C:\LUCAS\Programming\OpenCV\projects\displayImage\displayImage\CMakeFiles\CMakeTmp\cmTC_a6054.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.17
+
+
+
+
+Detecting CXX [] compiler features compiled with the following output:
+Change Dir: C:/LUCAS/Programming/OpenCV/projects/displayImage/displayImage/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:\Program Files (x86)\Microsoft Visual Studio\2017\Community/MSBuild/15.0/Bin/MSBuild.exe" "cmTC_37e17.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=15.0"
+Microsoft (R) Build Engine version 15.1.548.43366
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 8/04/2017 8:49:07 PM.
+Project "C:\LUCAS\Programming\OpenCV\projects\displayImage\displayImage\CMakeFiles\CMakeTmp\cmTC_37e17.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_37e17.dir\Debug\".
+  Creating directory "C:\LUCAS\Programming\OpenCV\projects\displayImage\displayImage\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_37e17.dir\Debug\cmTC_37e17.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_37e17.dir\Debug\cmTC_37e17.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.10.25017\bin\HostX86\x86\CL.exe /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_37e17.dir\Debug\\" /Fd"cmTC_37e17.dir\Debug\vc141.pdb" /Gd /TP /analyze- /errorReport:queue C:\LUCAS\Programming\OpenCV\projects\displayImage\displayImage\CMakeFiles\feature_tests.cxx
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.10.25017 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_37e17.dir\Debug\\" /Fd"cmTC_37e17.dir\Debug\vc141.pdb" /Gd /TP /analyze- /errorReport:queue C:\LUCAS\Programming\OpenCV\projects\displayImage\displayImage\CMakeFiles\feature_tests.cxx
+  feature_tests.cxx
+  
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.10.25017\bin\HostX86\x86\link.exe /ERRORREPORT:QUEUE /OUT:"C:\LUCAS\Programming\OpenCV\projects\displayImage\displayImage\CMakeFiles\CMakeTmp\Debug\cmTC_37e17.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/LUCAS/Programming/OpenCV/projects/displayImage/displayImage/CMakeFiles/CMakeTmp/Debug/cmTC_37e17.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/LUCAS/Programming/OpenCV/projects/displayImage/displayImage/CMakeFiles/CMakeTmp/Debug/cmTC_37e17.lib" /MACHINE:X86 /SAFESEH   /machine:X86 cmTC_37e17.dir\Debug\feature_tests.obj
+  cmTC_37e17.vcxproj -> C:\LUCAS\Programming\OpenCV\projects\displayImage\displayImage\CMakeFiles\CMakeTmp\Debug\cmTC_37e17.exe
+FinalizeBuildStatus:
+  Deleting file "cmTC_37e17.dir\Debug\cmTC_37e17.tlog\unsuccessfulbuild".
+  Touching "cmTC_37e17.dir\Debug\cmTC_37e17.tlog\cmTC_37e17.lastbuildstate".
+Done Building Project "C:\LUCAS\Programming\OpenCV\projects\displayImage\displayImage\CMakeFiles\CMakeTmp\cmTC_37e17.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.15
+
+
+    Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:1cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:1cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:1cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:1cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:1cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:1cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:1cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:1cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:1cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+The system is: Windows - 10.0.14393 - AMD64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler:  
+Build flags: 
+Id flags:  
+
+The output was:
+0
+Microsoft (R) Build Engine version 15.1.548.43366
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 8/04/2017 8:52:31 PM.
+Project "C:\LUCAS\Programming\OpenCV\projects\displayImage\displayImage\CMakeFiles\3.8.0-rc4\CompilerIdC\CompilerIdC.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "Debug\".
+  Creating directory "Debug\CompilerIdC.tlog\".
+InitializeBuildStatus:
+  Creating "Debug\CompilerIdC.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.10.25017\bin\HostX86\x86\CL.exe /c /nologo /W0 /WX- /diagnostics:classic /Od /Oy- /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc141.pdb" /Gd /TC /analyze- /errorReport:queue CMakeCCompilerId.c
+  CMakeCCompilerId.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.10.25017\bin\HostX86\x86\link.exe /ERRORREPORT:QUEUE /OUT:".\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\CompilerIdC.lib" /MACHINE:X86 /SAFESEH Debug\CMakeCCompilerId.obj
+  CompilerIdC.vcxproj -> C:\LUCAS\Programming\OpenCV\projects\displayImage\displayImage\CMakeFiles\3.8.0-rc4\CompilerIdC\.\CompilerIdC.exe
+PostBuildEvent:
+  for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+  :VCEnd
+  CMAKE_C_COMPILER=C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.10.25017\bin\HostX86\x86\cl.exe
+FinalizeBuildStatus:
+  Deleting file "Debug\CompilerIdC.tlog\unsuccessfulbuild".
+  Touching "Debug\CompilerIdC.tlog\CompilerIdC.lastbuildstate".
+Done Building Project "C:\LUCAS\Programming\OpenCV\projects\displayImage\displayImage\CMakeFiles\3.8.0-rc4\CompilerIdC\CompilerIdC.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.05
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+
+The C compiler identification is MSVC, found in "C:/LUCAS/Programming/OpenCV/projects/displayImage/displayImage/CMakeFiles/3.8.0-rc4/CompilerIdC/CompilerIdC.exe"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler:  
+Build flags: 
+Id flags:  
+
+The output was:
+0
+Microsoft (R) Build Engine version 15.1.548.43366
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 8/04/2017 8:52:32 PM.
+Project "C:\LUCAS\Programming\OpenCV\projects\displayImage\displayImage\CMakeFiles\3.8.0-rc4\CompilerIdCXX\CompilerIdCXX.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "Debug\".
+  Creating directory "Debug\CompilerIdCXX.tlog\".
+InitializeBuildStatus:
+  Creating "Debug\CompilerIdCXX.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.10.25017\bin\HostX86\x86\CL.exe /c /nologo /W0 /WX- /diagnostics:classic /Od /Oy- /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc141.pdb" /Gd /TP /analyze- /errorReport:queue CMakeCXXCompilerId.cpp
+  CMakeCXXCompilerId.cpp
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.10.25017\bin\HostX86\x86\link.exe /ERRORREPORT:QUEUE /OUT:".\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\CompilerIdCXX.lib" /MACHINE:X86 /SAFESEH Debug\CMakeCXXCompilerId.obj
+  CompilerIdCXX.vcxproj -> C:\LUCAS\Programming\OpenCV\projects\displayImage\displayImage\CMakeFiles\3.8.0-rc4\CompilerIdCXX\.\CompilerIdCXX.exe
+PostBuildEvent:
+  for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+  :VCEnd
+  CMAKE_CXX_COMPILER=C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.10.25017\bin\HostX86\x86\cl.exe
+FinalizeBuildStatus:
+  Deleting file "Debug\CompilerIdCXX.tlog\unsuccessfulbuild".
+  Touching "Debug\CompilerIdCXX.tlog\CompilerIdCXX.lastbuildstate".
+Done Building Project "C:\LUCAS\Programming\OpenCV\projects\displayImage\displayImage\CMakeFiles\3.8.0-rc4\CompilerIdCXX\CompilerIdCXX.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.16
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+
+The CXX compiler identification is MSVC, found in "C:/LUCAS/Programming/OpenCV/projects/displayImage/displayImage/CMakeFiles/3.8.0-rc4/CompilerIdCXX/CompilerIdCXX.exe"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: C:/LUCAS/Programming/OpenCV/projects/displayImage/displayImage/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:\Program Files (x86)\Microsoft Visual Studio\2017\Community/MSBuild/15.0/Bin/MSBuild.exe" "cmTC_2d200.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=15.0"
+Microsoft (R) Build Engine version 15.1.548.43366
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 8/04/2017 8:52:34 PM.
+Project "C:\LUCAS\Programming\OpenCV\projects\displayImage\displayImage\CMakeFiles\CMakeTmp\cmTC_2d200.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_2d200.dir\Debug\".
+  Creating directory "C:\LUCAS\Programming\OpenCV\projects\displayImage\displayImage\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_2d200.dir\Debug\cmTC_2d200.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_2d200.dir\Debug\cmTC_2d200.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.10.25017\bin\HostX86\x86\CL.exe /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_2d200.dir\Debug\\" /Fd"cmTC_2d200.dir\Debug\vc141.pdb" /Gd /TC /analyze- /errorReport:queue C:\LUCAS\Programming\OpenCV\projects\displayImage\displayImage\CMakeFiles\CMakeTmp\testCCompiler.c
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.10.25017 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_2d200.dir\Debug\\" /Fd"cmTC_2d200.dir\Debug\vc141.pdb" /Gd /TC /analyze- /errorReport:queue C:\LUCAS\Programming\OpenCV\projects\displayImage\displayImage\CMakeFiles\CMakeTmp\testCCompiler.c
+  testCCompiler.c
+  
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.10.25017\bin\HostX86\x86\link.exe /ERRORREPORT:QUEUE /OUT:"C:\LUCAS\Programming\OpenCV\projects\displayImage\displayImage\CMakeFiles\CMakeTmp\Debug\cmTC_2d200.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/LUCAS/Programming/OpenCV/projects/displayImage/displayImage/CMakeFiles/CMakeTmp/Debug/cmTC_2d200.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/LUCAS/Programming/OpenCV/projects/displayImage/displayImage/CMakeFiles/CMakeTmp/Debug/cmTC_2d200.lib" /MACHINE:X86 /SAFESEH   /machine:X86 cmTC_2d200.dir\Debug\testCCompiler.obj
+  cmTC_2d200.vcxproj -> C:\LUCAS\Programming\OpenCV\projects\displayImage\displayImage\CMakeFiles\CMakeTmp\Debug\cmTC_2d200.exe
+FinalizeBuildStatus:
+  Deleting file "cmTC_2d200.dir\Debug\cmTC_2d200.tlog\unsuccessfulbuild".
+  Touching "cmTC_2d200.dir\Debug\cmTC_2d200.tlog\cmTC_2d200.lastbuildstate".
+Done Building Project "C:\LUCAS\Programming\OpenCV\projects\displayImage\displayImage\CMakeFiles\CMakeTmp\cmTC_2d200.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.23
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: C:/LUCAS/Programming/OpenCV/projects/displayImage/displayImage/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:\Program Files (x86)\Microsoft Visual Studio\2017\Community/MSBuild/15.0/Bin/MSBuild.exe" "cmTC_7edf6.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=15.0"
+Microsoft (R) Build Engine version 15.1.548.43366
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 8/04/2017 8:52:35 PM.
+Project "C:\LUCAS\Programming\OpenCV\projects\displayImage\displayImage\CMakeFiles\CMakeTmp\cmTC_7edf6.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_7edf6.dir\Debug\".
+  Creating directory "C:\LUCAS\Programming\OpenCV\projects\displayImage\displayImage\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_7edf6.dir\Debug\cmTC_7edf6.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_7edf6.dir\Debug\cmTC_7edf6.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.10.25017\bin\HostX86\x86\CL.exe /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_7edf6.dir\Debug\\" /Fd"cmTC_7edf6.dir\Debug\vc141.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeCCompilerABI.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.10.25017 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_7edf6.dir\Debug\\" /Fd"cmTC_7edf6.dir\Debug\vc141.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeCCompilerABI.c"
+  CMakeCCompilerABI.c
+  
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.10.25017\bin\HostX86\x86\link.exe /ERRORREPORT:QUEUE /OUT:"C:\LUCAS\Programming\OpenCV\projects\displayImage\displayImage\CMakeFiles\CMakeTmp\Debug\cmTC_7edf6.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/LUCAS/Programming/OpenCV/projects/displayImage/displayImage/CMakeFiles/CMakeTmp/Debug/cmTC_7edf6.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/LUCAS/Programming/OpenCV/projects/displayImage/displayImage/CMakeFiles/CMakeTmp/Debug/cmTC_7edf6.lib" /MACHINE:X86 /SAFESEH   /machine:X86 cmTC_7edf6.dir\Debug\CMakeCCompilerABI.obj
+  cmTC_7edf6.vcxproj -> C:\LUCAS\Programming\OpenCV\projects\displayImage\displayImage\CMakeFiles\CMakeTmp\Debug\cmTC_7edf6.exe
+FinalizeBuildStatus:
+  Deleting file "cmTC_7edf6.dir\Debug\cmTC_7edf6.tlog\unsuccessfulbuild".
+  Touching "cmTC_7edf6.dir\Debug\cmTC_7edf6.tlog\cmTC_7edf6.lastbuildstate".
+Done Building Project "C:\LUCAS\Programming\OpenCV\projects\displayImage\displayImage\CMakeFiles\CMakeTmp\cmTC_7edf6.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.20
+
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: C:/LUCAS/Programming/OpenCV/projects/displayImage/displayImage/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:\Program Files (x86)\Microsoft Visual Studio\2017\Community/MSBuild/15.0/Bin/MSBuild.exe" "cmTC_2abc1.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=15.0"
+Microsoft (R) Build Engine version 15.1.548.43366
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 8/04/2017 8:52:37 PM.
+Project "C:\LUCAS\Programming\OpenCV\projects\displayImage\displayImage\CMakeFiles\CMakeTmp\cmTC_2abc1.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_2abc1.dir\Debug\".
+  Creating directory "C:\LUCAS\Programming\OpenCV\projects\displayImage\displayImage\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_2abc1.dir\Debug\cmTC_2abc1.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_2abc1.dir\Debug\cmTC_2abc1.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.10.25017\bin\HostX86\x86\CL.exe /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_2abc1.dir\Debug\\" /Fd"cmTC_2abc1.dir\Debug\vc141.pdb" /Gd /TP /analyze- /errorReport:queue C:\LUCAS\Programming\OpenCV\projects\displayImage\displayImage\CMakeFiles\CMakeTmp\testCXXCompiler.cxx
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.10.25017 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_2abc1.dir\Debug\\" /Fd"cmTC_2abc1.dir\Debug\vc141.pdb" /Gd /TP /analyze- /errorReport:queue C:\LUCAS\Programming\OpenCV\projects\displayImage\displayImage\CMakeFiles\CMakeTmp\testCXXCompiler.cxx
+  testCXXCompiler.cxx
+  
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.10.25017\bin\HostX86\x86\link.exe /ERRORREPORT:QUEUE /OUT:"C:\LUCAS\Programming\OpenCV\projects\displayImage\displayImage\CMakeFiles\CMakeTmp\Debug\cmTC_2abc1.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/LUCAS/Programming/OpenCV/projects/displayImage/displayImage/CMakeFiles/CMakeTmp/Debug/cmTC_2abc1.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/LUCAS/Programming/OpenCV/projects/displayImage/displayImage/CMakeFiles/CMakeTmp/Debug/cmTC_2abc1.lib" /MACHINE:X86 /SAFESEH   /machine:X86 cmTC_2abc1.dir\Debug\testCXXCompiler.obj
+  cmTC_2abc1.vcxproj -> C:\LUCAS\Programming\OpenCV\projects\displayImage\displayImage\CMakeFiles\CMakeTmp\Debug\cmTC_2abc1.exe
+FinalizeBuildStatus:
+  Deleting file "cmTC_2abc1.dir\Debug\cmTC_2abc1.tlog\unsuccessfulbuild".
+  Touching "cmTC_2abc1.dir\Debug\cmTC_2abc1.tlog\cmTC_2abc1.lastbuildstate".
+Done Building Project "C:\LUCAS\Programming\OpenCV\projects\displayImage\displayImage\CMakeFiles\CMakeTmp\cmTC_2abc1.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.21
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: C:/LUCAS/Programming/OpenCV/projects/displayImage/displayImage/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:\Program Files (x86)\Microsoft Visual Studio\2017\Community/MSBuild/15.0/Bin/MSBuild.exe" "cmTC_f4ce0.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=15.0"
+Microsoft (R) Build Engine version 15.1.548.43366
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 8/04/2017 8:52:38 PM.
+Project "C:\LUCAS\Programming\OpenCV\projects\displayImage\displayImage\CMakeFiles\CMakeTmp\cmTC_f4ce0.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_f4ce0.dir\Debug\".
+  Creating directory "C:\LUCAS\Programming\OpenCV\projects\displayImage\displayImage\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_f4ce0.dir\Debug\cmTC_f4ce0.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_f4ce0.dir\Debug\cmTC_f4ce0.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.10.25017\bin\HostX86\x86\CL.exe /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_f4ce0.dir\Debug\\" /Fd"cmTC_f4ce0.dir\Debug\vc141.pdb" /Gd /TP /analyze- /errorReport:queue "C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeCXXCompilerABI.cpp"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.10.25017 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_f4ce0.dir\Debug\\" /Fd"cmTC_f4ce0.dir\Debug\vc141.pdb" /Gd /TP /analyze- /errorReport:queue "C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeCXXCompilerABI.cpp"
+  CMakeCXXCompilerABI.cpp
+  
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.10.25017\bin\HostX86\x86\link.exe /ERRORREPORT:QUEUE /OUT:"C:\LUCAS\Programming\OpenCV\projects\displayImage\displayImage\CMakeFiles\CMakeTmp\Debug\cmTC_f4ce0.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/LUCAS/Programming/OpenCV/projects/displayImage/displayImage/CMakeFiles/CMakeTmp/Debug/cmTC_f4ce0.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/LUCAS/Programming/OpenCV/projects/displayImage/displayImage/CMakeFiles/CMakeTmp/Debug/cmTC_f4ce0.lib" /MACHINE:X86 /SAFESEH   /machine:X86 cmTC_f4ce0.dir\Debug\CMakeCXXCompilerABI.obj
+  cmTC_f4ce0.vcxproj -> C:\LUCAS\Programming\OpenCV\projects\displayImage\displayImage\CMakeFiles\CMakeTmp\Debug\cmTC_f4ce0.exe
+FinalizeBuildStatus:
+  Deleting file "cmTC_f4ce0.dir\Debug\cmTC_f4ce0.tlog\unsuccessfulbuild".
+  Touching "cmTC_f4ce0.dir\Debug\cmTC_f4ce0.tlog\cmTC_f4ce0.lastbuildstate".
+Done Building Project "C:\LUCAS\Programming\OpenCV\projects\displayImage\displayImage\CMakeFiles\CMakeTmp\cmTC_f4ce0.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.18
+
+
+
+
+Detecting CXX [] compiler features compiled with the following output:
+Change Dir: C:/LUCAS/Programming/OpenCV/projects/displayImage/displayImage/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:\Program Files (x86)\Microsoft Visual Studio\2017\Community/MSBuild/15.0/Bin/MSBuild.exe" "cmTC_e96c5.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=15.0"
+Microsoft (R) Build Engine version 15.1.548.43366
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 8/04/2017 8:52:40 PM.
+Project "C:\LUCAS\Programming\OpenCV\projects\displayImage\displayImage\CMakeFiles\CMakeTmp\cmTC_e96c5.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_e96c5.dir\Debug\".
+  Creating directory "C:\LUCAS\Programming\OpenCV\projects\displayImage\displayImage\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_e96c5.dir\Debug\cmTC_e96c5.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_e96c5.dir\Debug\cmTC_e96c5.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.10.25017\bin\HostX86\x86\CL.exe /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_e96c5.dir\Debug\\" /Fd"cmTC_e96c5.dir\Debug\vc141.pdb" /Gd /TP /analyze- /errorReport:queue C:\LUCAS\Programming\OpenCV\projects\displayImage\displayImage\CMakeFiles\feature_tests.cxx
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.10.25017 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_e96c5.dir\Debug\\" /Fd"cmTC_e96c5.dir\Debug\vc141.pdb" /Gd /TP /analyze- /errorReport:queue C:\LUCAS\Programming\OpenCV\projects\displayImage\displayImage\CMakeFiles\feature_tests.cxx
+  feature_tests.cxx
+  
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.10.25017\bin\HostX86\x86\link.exe /ERRORREPORT:QUEUE /OUT:"C:\LUCAS\Programming\OpenCV\projects\displayImage\displayImage\CMakeFiles\CMakeTmp\Debug\cmTC_e96c5.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/LUCAS/Programming/OpenCV/projects/displayImage/displayImage/CMakeFiles/CMakeTmp/Debug/cmTC_e96c5.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/LUCAS/Programming/OpenCV/projects/displayImage/displayImage/CMakeFiles/CMakeTmp/Debug/cmTC_e96c5.lib" /MACHINE:X86 /SAFESEH   /machine:X86 cmTC_e96c5.dir\Debug\feature_tests.obj
+  cmTC_e96c5.vcxproj -> C:\LUCAS\Programming\OpenCV\projects\displayImage\displayImage\CMakeFiles\CMakeTmp\Debug\cmTC_e96c5.exe
+FinalizeBuildStatus:
+  Deleting file "cmTC_e96c5.dir\Debug\cmTC_e96c5.tlog\unsuccessfulbuild".
+  Touching "cmTC_e96c5.dir\Debug\cmTC_e96c5.tlog\cmTC_e96c5.lastbuildstate".
+Done Building Project "C:\LUCAS\Programming\OpenCV\projects\displayImage\displayImage\CMakeFiles\CMakeTmp\cmTC_e96c5.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.19
+
+
+    Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:1cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:1cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:1cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:1cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:1cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:1cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:1cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:1cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:1cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
