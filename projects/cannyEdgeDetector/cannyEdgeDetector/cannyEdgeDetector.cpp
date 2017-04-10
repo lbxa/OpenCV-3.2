@@ -64,7 +64,8 @@ int main(int argc, char **argv)
   /*
    *  cv::Canny( <inputArray image>, <outputArray edges>, <double threshold1>, <double threshold2>, <int arpertureSize = 3>, <bool L2gradient = false );
    *
-   *  
+   *  Returns outputArray edges as a edge detected version of the
+   *  single channel image passed in as the first argument. 
    *
    */
   cv::Canny(img_gry, img_cny, 10, 100, 3, true);
