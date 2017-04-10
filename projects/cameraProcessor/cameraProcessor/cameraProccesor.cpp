@@ -2,7 +2,8 @@
  *  Camera Processor
  *
  *  OpenCV project which reads frames from default camera on
- *  computer and displays frames with a Guassian blur.
+ *  computer and displays frames with a Guassian blurred canny
+ *  edge image.
  *
  *  Lucas Barbosa | 07.04.2017 | All Rights Reserved (R)
  */
