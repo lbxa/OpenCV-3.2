@@ -26,7 +26,7 @@ int main(int argc, char **argv)
   if (!cam_cap.isOpened()) return -1;
 
   cv::Mat img_edges;
-  namedWindow(windowName, cv::WINDOW_NORMAL);
+  namedWindow(windowName, cv::WINDOW_AUTOSIZE);
 
   while (check_for_esc_key != ESC_ASCII)
   {
