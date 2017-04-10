@@ -39,9 +39,9 @@ int main(int argc, char **argv)
   std::string win2 = "Greyscale Image";
   std::string win3 = "Canny Edge Image";
 
-  cv::namedWindow( win1, cv::WINDOW_AUTOSIZE );
-  cv::namedWindow( win2, cv::WINDOW_AUTOSIZE );
-  cv::namedWindow( win3, cv::WINDOW_AUTOSIZE );
+  cv::namedWindow( win1, cv::WINDOW_NORMAL );
+  cv::namedWindow( win2, cv::WINDOW_NORMAL );
+  cv::namedWindow( win3, cv::WINDOW_NORMAL );
 
   cv::imshow(win1, img_rgb);
 
