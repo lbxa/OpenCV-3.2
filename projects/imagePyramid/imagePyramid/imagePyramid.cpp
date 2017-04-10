@@ -19,6 +19,9 @@
 
 #define ESC_ASCII 27
 
+using namespace std;
+using namespace cv;
+
 int main(int argc, char *argv)
 {
   

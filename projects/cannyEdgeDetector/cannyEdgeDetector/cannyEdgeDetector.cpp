@@ -1,0 +1,78 @@
+/*
+ *  Canny Edge Detector 
+ *
+ *  Using the Gaussian blur functionality to convert an RGB
+ *  multi-channel image to a single channel grey scale 
+ *  image. 
+ *
+ *  Since cv::Canny() only accepts single channel structures 
+ *  now we can pass the greyscale scale version of the photo
+ *  to the program to output the Canny Edge detections in the
+ *  original image. 
+ *
+ *  Lucas Barbosa | 10.04.2017 | All Rights Reserved (R)
+ */
+
+#include <opencv2\imgproc\imgproc.hpp>
+#include <opencv2\highgui\highgui.hpp>
+
+#include <iostream>
+
+#define ESC_ASCII 27
+
+using namespace std;
+using namespace cv;
+
+int main(int argc, char **argv)
+{
+
+  cv::Mat img_rgb, img_gry, img_cny;
+  img_rgb = cv::imread("image.jpg");
+
+  if (img_rgb.empty())
+  {
+    std::cout << "Image was empty." << std::endl;
+    return 1;
+  }
+
+  std::string win1 = "Original Image";
+  std::string win2 = "Greyscale Image";
+  std::string win3 = "Canny Edge Image";
+
+  cv::namedWindow( win1, cv::WINDOW_AUTOSIZE );
+  cv::namedWindow( win2, cv::WINDOW_AUTOSIZE );
+  cv::namedWindow( win3, cv::WINDOW_AUTOSIZE );
+
+  cv::imshow(win1, img_rgb);
+
+  /*
+   *  cv::cvtColor( <inputArray>, <outputArray>, <int code> );
+   *
+   *  Uses the basic pattern of input and output arrays to convert 
+   *  multi-channel structures into single channel structures 
+   *  depending on the code passed as the third argument.
+   *
+   *  cv::COLOR_BGR2GRAY:
+   *  Flag for multi-channel to single channel image conversions 
+   *  with cvtColor().
+   *
+   *  *NOTE: OpenCV interprets RGB channels as BGR (reverse)
+   */
+  cv::cvtColor( img_rgb, img_gry, cv::COLOR_BGR2GRAY );
+  cv::imshow( win2, img_gry );
+
+  /*
+   *  cv::Canny( <inputArray image>, <outputArray edges>, <double threshold1>, <double threshold2>, <int arpertureSize = 3>, <bool L2gradient = false );
+   *
+   *  
+   *
+   */
+  cv::Canny(img_gry, img_cny, 10, 100, 3, true);
+  cv::imshow(win3, img_cny);
+  
+  cv::waitKey(0);
+  cv::destroyAllWindows();
+
+  return 0;
+    
+}
