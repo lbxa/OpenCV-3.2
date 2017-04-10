@@ -4,7 +4,10 @@
 #include<opencv2/highgui/highgui.hpp>
 #include<opencv2/imgproc/imgproc.hpp>
 
-#include<iostream>s
+#include<iostream>
+
+using namespace cv;
+using namespace std;
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////
 int main() {
@@ -55,8 +58,8 @@ int main() {
 			imgThresh.rows / 4,				// min distance in pixels between the centers of the detected circles
 			100,								// high threshold of Canny edge detector (called by cvHoughCircles)						
 			50,									// low threshold of Canny edge detector (set at 1/2 previous value)
-			10,									// min circle radius (any circles with smaller radius will not be returned)
-			400);								// max circle radius (any circles with larger radius will not be returned)
+			50,									// min circle radius (any circles with smaller radius will not be returned)
+			200);								// max circle radius (any circles with larger radius will not be returned)
 
 		for (int i = 0; i < v3fCircles.size(); i++) {		// for each circle . . .
 															// show ball position x, y, and radius to command line
@@ -76,12 +79,12 @@ int main() {
 				cv::Point((int)v3fCircles[i][0], (int)v3fCircles[i][1]),		// center point of circle
 				(int)v3fCircles[i][2],											// radius of circle in pixels
 				cv::Scalar(0, 0, 255),											// draw pure red (remember, its BGR, not RGB)
-				3);																// thickness of circle in pixels
+				2);																// thickness of circle in pixels
 		}	// end for
 
 			// declare windows
-		cv::namedWindow("imgOriginal", CV_WINDOW_AUTOSIZE);	// note: you can use CV_WINDOW_NORMAL which allows resizing the window
-		cv::namedWindow("imgThresh", CV_WINDOW_AUTOSIZE);	// or CV_WINDOW_AUTOSIZE for a fixed size window matching the resolution of the image
+		cv::namedWindow("imgOriginal", CV_WINDOW_NORMAL);	// note: you can use CV_WINDOW_NORMAL which allows resizing the window
+		cv::namedWindow("imgThresh", CV_WINDOW_NORMAL);	// or CV_WINDOW_AUTOSIZE for a fixed size window matching the resolution of the image
 															// CV_WINDOW_AUTOSIZE is the default
 
 		cv::imshow("imgOriginal", imgOriginal);			// show windows

@@ -11,15 +11,21 @@
 #include <iostream>
 
 using namespace cv;
+using namespace std;
 
 int main(int argc, char **argv)
 {
 	
+  // class cv::Mat is what will hold single and multi-channel arrays (images etc.)
   cv::Mat img = cv::imread("image.jpg");
 
-  std::string *windowName = new std::string("Display Image");
+  std::string windowName = "Image Display";
 
-  if (img.empty()) return -1;
+  if (img.empty())
+  {
+    std::cout << "Image was not found." << std::endl;
+    return 0;
+  }
 
   // creates a window which can be used as a placeholder for images
 
@@ -37,16 +43,15 @@ int main(int argc, char **argv)
    *      Makes window's and image's size relative to user ajustable size
    *
    */
-  cv::namedWindow((*windowName), cv::WINDOW_AUTOSIZE);
+  cv::namedWindow(windowName, cv::WINDOW_AUTOSIZE );
 
   // displays and image in the specified window
-  cv::imshow((*windowName), img);
+  cv::imshow( windowName, img );
 
-  // waits for a pressed key
+  // holds window open until user presses any key
   cv::waitKey(0);
 
-  // destroys the specified window
-  cv::destroyWindow((*windowName));
+  cv::destroyWindow( windowName );
 
   return 0;
 
