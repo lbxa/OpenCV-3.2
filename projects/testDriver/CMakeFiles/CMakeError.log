@@ -1,0 +1,124 @@
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /opt/local/libexec/gcc/x86_64-apple-darwin16/6.3.0/ 
+Build flags: 
+Id flags:  
+
+The output was:
+Permission denied
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /opt/local/libexec/gcc/x86_64-apple-darwin16/6.3.0/ 
+Build flags: 
+Id flags: -c 
+
+The output was:
+Permission denied
+
+
+Checking whether the CXX compiler is IAR using "" did not match "IAR .+ Compiler":
+Determining if the CXX compiler works failed with the following output:
+Change Dir: /Users/LucasBarbosaaa/Documents/MainDrive/Programming/OpenCV-3.2/projects/testDriver/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_23b37/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_23b37.dir/build.make CMakeFiles/cmTC_23b37.dir/build
+Building CXX object CMakeFiles/cmTC_23b37.dir/testCXXCompiler.cxx.o
+/opt/local/libexec/gcc/x86_64-apple-darwin16/6.3.0/     -o CMakeFiles/cmTC_23b37.dir/testCXXCompiler.cxx.o -c /Users/LucasBarbosaaa/Documents/MainDrive/Programming/OpenCV-3.2/projects/testDriver/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+make[1]: /opt/local/libexec/gcc/x86_64-apple-darwin16/6.3.0/: Permission denied
+make[1]: *** [CMakeFiles/cmTC_23b37.dir/testCXXCompiler.cxx.o] Error 1
+make: *** [cmTC_23b37/fast] Error 2
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /opt/local/libexec/gcc/x86_64-apple-darwin16/6.3.0/ 
+Build flags: 
+Id flags:  
+
+The output was:
+Permission denied
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /opt/local/libexec/gcc/x86_64-apple-darwin16/6.3.0/ 
+Build flags: 
+Id flags: -c 
+
+The output was:
+Permission denied
+
+
+Checking whether the CXX compiler is IAR using "" did not match "IAR .+ Compiler":
+Determining if the CXX compiler works failed with the following output:
+Change Dir: /Users/LucasBarbosaaa/Documents/MainDrive/Programming/OpenCV-3.2/projects/testDriver/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_a38f8/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_a38f8.dir/build.make CMakeFiles/cmTC_a38f8.dir/build
+Building CXX object CMakeFiles/cmTC_a38f8.dir/testCXXCompiler.cxx.o
+/opt/local/libexec/gcc/x86_64-apple-darwin16/6.3.0/     -o CMakeFiles/cmTC_a38f8.dir/testCXXCompiler.cxx.o -c /Users/LucasBarbosaaa/Documents/MainDrive/Programming/OpenCV-3.2/projects/testDriver/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+make[1]: /opt/local/libexec/gcc/x86_64-apple-darwin16/6.3.0/: Permission denied
+make[1]: *** [CMakeFiles/cmTC_a38f8.dir/testCXXCompiler.cxx.o] Error 1
+make: *** [cmTC_a38f8/fast] Error 2
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /opt/local/libexec/gcc/x86_64-apple-darwin16/6.3.0 
+Build flags: 
+Id flags:  
+
+The output was:
+Permission denied
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /opt/local/libexec/gcc/x86_64-apple-darwin16/6.3.0 
+Build flags: 
+Id flags: -c 
+
+The output was:
+Permission denied
+
+
+Checking whether the CXX compiler is IAR using "" did not match "IAR .+ Compiler":
+Determining if the CXX compiler works failed with the following output:
+Change Dir: /Users/LucasBarbosaaa/Documents/MainDrive/Programming/OpenCV-3.2/projects/testDriver/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_1e389/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_1e389.dir/build.make CMakeFiles/cmTC_1e389.dir/build
+Building CXX object CMakeFiles/cmTC_1e389.dir/testCXXCompiler.cxx.o
+/opt/local/libexec/gcc/x86_64-apple-darwin16/6.3.0     -o CMakeFiles/cmTC_1e389.dir/testCXXCompiler.cxx.o -c /Users/LucasBarbosaaa/Documents/MainDrive/Programming/OpenCV-3.2/projects/testDriver/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+make[1]: /opt/local/libexec/gcc/x86_64-apple-darwin16/6.3.0: Permission denied
+make[1]: *** [CMakeFiles/cmTC_1e389.dir/testCXXCompiler.cxx.o] Error 1
+make: *** [cmTC_1e389/fast] Error 2
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /opt/local/libexec/gcc/x86_64-apple-darwin16/6.3.0/ 
+Build flags: 
+Id flags:  
+
+The output was:
+Permission denied
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /opt/local/libexec/gcc/x86_64-apple-darwin16/6.3.0/ 
+Build flags: 
+Id flags: -c 
+
+The output was:
+Permission denied
+
+
+Checking whether the CXX compiler is IAR using "" did not match "IAR .+ Compiler":
+Determining if the CXX compiler works failed with the following output:
+Change Dir: /Users/LucasBarbosaaa/Documents/MainDrive/Programming/OpenCV-3.2/projects/testDriver/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_d590f/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_d590f.dir/build.make CMakeFiles/cmTC_d590f.dir/build
+Building CXX object CMakeFiles/cmTC_d590f.dir/testCXXCompiler.cxx.o
+/opt/local/libexec/gcc/x86_64-apple-darwin16/6.3.0/     -o CMakeFiles/cmTC_d590f.dir/testCXXCompiler.cxx.o -c /Users/LucasBarbosaaa/Documents/MainDrive/Programming/OpenCV-3.2/projects/testDriver/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+make[1]: /opt/local/libexec/gcc/x86_64-apple-darwin16/6.3.0/: Permission denied
+make[1]: *** [CMakeFiles/cmTC_d590f.dir/testCXXCompiler.cxx.o] Error 1
+make: *** [cmTC_d590f/fast] Error 2
+
+

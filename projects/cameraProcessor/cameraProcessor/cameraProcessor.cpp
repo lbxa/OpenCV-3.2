@@ -8,7 +8,7 @@
  *  Lucas Barbosa | 07.04.2017 | All Rights Reserved (R)
  */
 
-#include <opencv2\opencv.hpp>
+#include <opencv2/opencv.hpp>
 #include <iostream>
 
 using namespace cv;
