@@ -21,7 +21,7 @@ int main(int argc, char **argv)
   
   // choose default camera
   cv::VideoCapture cam_cap(0);
-  std::string windowName = "Example1";
+  std::string windowName = "Smile for the camera";
   char check_for_esc_key = 0;
 
   if (!cam_cap.isOpened()) return -1;
@@ -42,9 +42,8 @@ int main(int argc, char **argv)
     cv::Canny( img_edges, img_edges, 0, 30, 3, true );
     cv::imshow( windowName, img_edges );
 
-
     // wait for esc key to be pressed
-    check_for_esc_key = cv::waitKey(1);
+    check_for_esc_key = cv::waitKey(0);
 
   }
 

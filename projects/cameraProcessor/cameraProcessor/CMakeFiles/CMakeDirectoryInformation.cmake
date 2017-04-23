@@ -3,7 +3,7 @@
 
 # Relative path conversion top directories.
 set(CMAKE_RELATIVE_PATH_TOP_SOURCE "/Users/LucasBarbosaaa/Documents/MainDrive/Programming/OpenCV-3.2/projects/cameraProcessor/CameraProcessor")
-set(CMAKE_RELATIVE_PATH_TOP_BINARY "/Users/LucasBarbosaaa/Documents/MainDrive/Programming/OpenCV-3.2/projects/cameraProcessor/CameraProcessor")
+set(CMAKE_RELATIVE_PATH_TOP_BINARY "/Users/LucasBarbosaaa/Documents/MainDrive/Programming/OpenCV-3.2/projects/cameraProcessor/cameraProcessor")
 
 # Force unix paths in dependencies.
 set(CMAKE_FORCE_UNIX_PATHS 1)

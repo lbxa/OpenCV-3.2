@@ -1,10 +1,12 @@
 // RedBallTracker.cpp
 
-#include<opencv2/core/core.hpp>
-#include<opencv2/highgui/highgui.hpp>
-#include<opencv2/imgproc/imgproc.hpp>
+#include <opencv2/core/core.hpp>
+#include <opencv2/highgui/highgui.hpp>
+#include <opencv2/imgproc/imgproc.hpp>
 
-#include<iostream>
+#include <iostream>
+
+#define ESC_ASCII 27
 
 using namespace cv;
 using namespace std;
@@ -28,7 +30,7 @@ int main() {
 
 	char charCheckForEscKey = 0;
 
-	while (charCheckForEscKey != 27 && capWebcam.isOpened()) {		// until the Esc key is pressed or webcam connection is lost
+	while (charCheckForEscKey != ESC_ASCII && capWebcam.isOpened()) {		// until the Esc key is pressed or webcam connection is lost
 		bool blnFrameReadSuccessfully = capWebcam.read(imgOriginal);		// get next frame
 
 		if (!blnFrameReadSuccessfully || imgOriginal.empty()) {		// if frame not read successfully
@@ -78,7 +80,7 @@ int main() {
 			cv::circle(imgOriginal,												// draw on original image
 				cv::Point((int)v3fCircles[i][0], (int)v3fCircles[i][1]),		// center point of circle
 				(int)v3fCircles[i][2],											// radius of circle in pixels
-				cv::Scalar(0, 0, 255),											// draw pure red (remember, its BGR, not RGB)
+				cv::Scalar(255, 0, 0),											// draw pure red (remember, its BGR, not RGB)
 				2);																// thickness of circle in pixels
 		}	// end for
 

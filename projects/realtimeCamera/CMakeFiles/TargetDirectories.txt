@@ -1,0 +1,3 @@
+/Users/LucasBarbosaaa/Documents/MainDrive/Programming/OpenCV-3.2/projects/realtimeCamera/CMakeFiles/rebuild_cache.dir
+/Users/LucasBarbosaaa/Documents/MainDrive/Programming/OpenCV-3.2/projects/realtimeCamera/CMakeFiles/edit_cache.dir
+/Users/LucasBarbosaaa/Documents/MainDrive/Programming/OpenCV-3.2/projects/realtimeCamera/CMakeFiles/RealtimeCamera.dir

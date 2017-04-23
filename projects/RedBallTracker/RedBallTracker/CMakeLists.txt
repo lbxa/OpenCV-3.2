@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 2.8)
+project( RedBallTracker )
+find_package( OpenCV REQUIRED )
+add_executable( RedBallTracker RedBallTracker.cpp )
+target_link_libraries( RedBallTracker ${OpenCV_LIBS} )
