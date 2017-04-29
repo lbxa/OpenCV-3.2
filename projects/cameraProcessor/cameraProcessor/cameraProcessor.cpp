@@ -8,7 +8,8 @@
  *  Lucas Barbosa | 07.04.2017 | All Rights Reserved (R)
  */
 
-#include <opencv2/opencv.hpp>
+#include <opencv2/highgui/highgui.hpp>
+#include <opencv2/imgproc/imgproc.hpp>
 #include <iostream>
 
 using namespace cv;
@@ -20,7 +21,7 @@ int main(int argc, char **argv)
 {
   
   // choose default camera
-  cv::VideoCapture cam_cap(0);
+  cv::VideoCapture cam_cap(1);
   std::string windowName = "Smile for the camera";
   char check_for_esc_key = 0;
 
