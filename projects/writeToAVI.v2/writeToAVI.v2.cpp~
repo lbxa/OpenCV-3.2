@@ -1,0 +1,10 @@
+/*
+ *  Writting to an AVI file version 2
+ *
+ *  New, improved and simplified version of the write to an AVI 
+ *  (Audio, Video and Interleave) file from writeToAVI.cpp
+ *
+ *  30.04.2017 | Lucas Barbosa | Open source software
+ */
+
+#include <opencv2/opencv.hpp>

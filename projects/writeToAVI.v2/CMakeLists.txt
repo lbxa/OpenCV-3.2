@@ -1,0 +1,5 @@
+cmake_minimum_required( VERSION 2.8 )
+project( writeToAVI.v2 )
+find_package( OpenCV REQUIRED )
+add_executable( writeToAVI_v2 writeToAVI.v2.cpp )
+target_link_libraries( writeToAVI_v2 ${OpenCV_LIBS} )
