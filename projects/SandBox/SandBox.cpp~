@@ -1,0 +1,28 @@
+/*
+**  SandBox
+**
+**  OpenCV sandbox for testing projects out and playing with data types 
+**  and structures. This is purely made to have fun. 
+**
+**  27.05.2017 | Lucas Barbosa (C) | Open source software 
+*/
+
+#include <opencv2/highgui/highgui.hpp>
+#include <opencv2/imgproc/imgproc.hpp>
+
+// STL
+#include <iostream>
+#include <vector>
+#include <cmath>
+
+#define ESC_ASCII 27
+
+std::string mainWindowName = "SandBox";
+
+int main (int agrc, char **argv) {
+
+  
+  
+  return 0;
+  
+}
