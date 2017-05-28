@@ -33,7 +33,21 @@ namespace aux {
     converter >> result;
     return result;
   }
-  
+
+  // ANSI coloring
+
+  ostream& bold_on(ostream& output_stream) {
+    return output_stream << "\e[1m";
+  }
+
+  ostream& blackBG_on(ostream& output_stream) {
+    return output_stream << "\e[40;37m";
+  }
+
+  ostream& color_off(ostream& output_stream) {
+    return output_stream << "\e[0m";
+  }
+
 } // end of aux namespace
 
 #endif // AUX_H_INCLUDED

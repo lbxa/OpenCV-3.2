@@ -10,6 +10,7 @@ CMakeFiles/SandBox.dir/SandBox.cpp.o: /usr/local/include/opencv2/core.hpp
 CMakeFiles/SandBox.dir/SandBox.cpp.o: /usr/local/include/opencv2/core/affine.hpp
 CMakeFiles/SandBox.dir/SandBox.cpp.o: /usr/local/include/opencv2/core/base.hpp
 CMakeFiles/SandBox.dir/SandBox.cpp.o: /usr/local/include/opencv2/core/bufferpool.hpp
+CMakeFiles/SandBox.dir/SandBox.cpp.o: /usr/local/include/opencv2/core/core.hpp
 CMakeFiles/SandBox.dir/SandBox.cpp.o: /usr/local/include/opencv2/core/core_c.h
 CMakeFiles/SandBox.dir/SandBox.cpp.o: /usr/local/include/opencv2/core/cuda.hpp
 CMakeFiles/SandBox.dir/SandBox.cpp.o: /usr/local/include/opencv2/core/cuda.inl.hpp
