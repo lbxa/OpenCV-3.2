@@ -64,9 +64,9 @@ int main (int argc, char **argv)
 
   cv::cvtColor( edged_frame, edged_frame, cv::COLOR_BGR2GRAY );
   
-  cv::Canny( edged_frame, edged_frame, low_thresh,
-             low_thresh * thresh_ratio,
-             kernel_size);
+  //cv::Canny( edged_frame, edged_frame, low_thresh,
+  //           low_thresh * thresh_ratio,
+  //           kernel_size);
 
   cv::putText( edged_frame, "Smile for the camera", Point(10, 40),
 	       cv::FONT_HERSHEY_SIMPLEX, 1, Scalar(255, 255, 0), 2);

@@ -16,19 +16,20 @@ using namespace cv;
 using namespace std;
 
 #define ESC_ASCII 27
+#define WEBCAM 1
 
 int main(int argc, char **argv)
 {
   
   // choose default camera
-  cv::VideoCapture cam_cap(1);
+  cv::VideoCapture cam_cap(WEBCAM);
   std::string windowName = "Smile for the camera";
   char check_for_esc_key = 0;
 
   if (!cam_cap.isOpened()) return -1;
 
   cv::Mat img_edges;
-  namedWindow(windowName, cv::WINDOW_AUTOSIZE);
+  cv::namedWindow(windowName, cv::WINDOW_NORMAL);
 
   while (check_for_esc_key != ESC_ASCII)
   {
@@ -37,17 +38,14 @@ int main(int argc, char **argv)
 
     if (img_frame.empty()) break;
 
-    cvtColor(img_frame, img_edges, cv::COLOR_BGR2GRAY);
-    GaussianBlur(img_edges, img_edges, cv::Size(7, 7), 1.5, 1.5);
-
-    cv::Canny( img_edges, img_edges, 0, 30, 3, true );
-    cv::imshow( windowName, img_edges );
+    cv::imshow( windowName, img_frame );
 
     // wait for esc key to be pressed
-    check_for_esc_key = cv::waitKey(0);
+    check_for_esc_key = cv::waitKey(30);
 
   }
 
+  cv::destroyWindow( windowName );
 
   return 0;
 

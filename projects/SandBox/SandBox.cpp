@@ -76,11 +76,11 @@ int main (int agrc, char **argv) {
   **  explanatory). Also Size is only 2 dimensional
   */
 
-  cv::Size myRect;  // Hmmmmmm, well whats a good shape to play with?
-  myRect.width  = 500;
-  myRect.height = 200;
+  cv::Size mySquare;  // Hmmmmmm, well whats a good shape to play with?
+  mySquare.width  = 500;
+  mySquare.height = 200;
 
-  std::cout << bold_on << blackBG_on << "Size(" << myRect.width << "," << myRect.height
+  std::cout << bold_on << blackBG_on << "Size(" << mySquare.width << "," << mySquare.height
 	    << ")" << color_off << std::endl << "------" << std::endl;
 
   /*
@@ -97,9 +97,27 @@ int main (int agrc, char **argv) {
 
   // Scalar should compile.
   std::cout << bold_on << blackBG_on << "Scalar(" << ScalarCoo[X] << "," << ScalarCoo[Y]
-	    << "," << ScalarCoo[Z] << "," << ScalarCoo[A] << ")" << color_off << std::endl
-            << std::endl;
-  
+	    << "," << ScalarCoo[Z] << "," << ScalarCoo[A] << ")" << color_off
+            << std::endl << "------" << std::endl;
+  /*
+  **  @Rect()
+  **
+  **  The rectangle class can actually be pretty useful and it does make somewhat sense
+  **  conceptually. 
+  **  The rectangle includes a width and a height, together with an (x, y) coordinate
+  **  which locates the top left hand point of the rectangle. 
+  */
+
+  cv::Rect myRect;
+    
+  myRect.width = 500;
+  myRect.height = 200;
+  myRect.x = xCoo;
+  myRect.y = yCoo;
+										 
+  std::cout << bold_on << blackBG_on << "Rect(" << myRect.width << "," << myRect.height
+            << ")" << std::endl << "------" << std::endl;
+
   return 0;
   
 }
