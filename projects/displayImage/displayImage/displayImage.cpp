@@ -3,26 +3,30 @@
  *
  *  <opencv2/opencv.hpp>:
  *  Contains all OpenCV supported functions
+ *  <opencv2/highgui/highgui.hpp>:
+ *  Contains all highgui functionality for UI features with GUI
+ *  <opencv2/imgproc/imgproc.hpp>:
+ *  Contains all image manipulation functionality
  *
  *  Lucas Barbosa | 08.04.2017 | All Rights Reserved (R)
  */
 
-#include <opencv2/opencv.hpp>
+#include <opencv2/highgui/highgui.hpp>
+#include <opencv2/imgproc/imgproc.hpp>
+
 #include <iostream>
 
 using namespace cv;
 using namespace std;
 
-int main(int argc, char **argv)
-{
+int main(int argc, char **argv) {
 	
   // class cv::Mat is what will hold single and multi-channel arrays (images etc.)
-  cv::Mat img = cv::imread("image.jpg");
+  cv::Mat img = cv::imread("image_3.jpg");
 
   std::string windowName = "Image Display";
 
-  if (img.empty())
-  {
+  if (img.empty()) {
     std::cout << "Image was not found." << std::endl;
     return 0;
   }
@@ -43,6 +47,7 @@ int main(int argc, char **argv)
    *      Makes window's and image's size relative to user ajustable size
    *
    */
+
   cv::namedWindow(windowName, cv::WINDOW_AUTOSIZE );
 
   // displays and image in the specified window

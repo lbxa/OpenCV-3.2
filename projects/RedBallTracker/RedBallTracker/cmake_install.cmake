@@ -1,4 +1,4 @@
-# Install script for directory: /Users/LucasBarbosaaa/Documents/MainDrive/Programming/OpenCV-3.2/projects/RedBallTracker/RedBallTracker
+# Install script for directory: /Users/lucasbarbosa/Documents/MainDrive/Programming/OpenCV/projects/RedBallTracker/RedBallTracker
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -27,6 +27,11 @@ if(NOT CMAKE_INSTALL_COMPONENT)
   endif()
 endif()
 
+# Is this installation the result of a crosscompile?
+if(NOT DEFINED CMAKE_CROSSCOMPILING)
+  set(CMAKE_CROSSCOMPILING "FALSE")
+endif()
+
 if(CMAKE_INSTALL_COMPONENT)
   set(CMAKE_INSTALL_MANIFEST "install_manifest_${CMAKE_INSTALL_COMPONENT}.txt")
 else()
@@ -35,5 +40,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/Users/LucasBarbosaaa/Documents/MainDrive/Programming/OpenCV-3.2/projects/RedBallTracker/RedBallTracker/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/Users/lucasbarbosa/Documents/MainDrive/Programming/OpenCV/projects/RedBallTracker/RedBallTracker/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
