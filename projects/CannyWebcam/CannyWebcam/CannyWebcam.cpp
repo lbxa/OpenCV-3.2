@@ -5,7 +5,6 @@
 #include<opencv2/imgproc/imgproc.hpp>
 
 #include<iostream>
-#include<conio.h>           // may have to modify this line if not using Windows
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////
 int main() {
@@ -13,7 +12,7 @@ int main() {
 
 	if (capWebcam.isOpened() == false) {                                // check if VideoCapture object was associated to webcam successfully
 		std::cout << "error: capWebcam not accessed successfully\n\n";      // if not, print error message to std out
-		_getch();                                                           // may have to modify this line if not using Windows
+		
 		return(0);                                                          // and exit program
 	}
 

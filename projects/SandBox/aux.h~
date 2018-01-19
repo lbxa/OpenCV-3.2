@@ -1,0 +1,14 @@
+/*
+**\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+**                       AUXILARY HEADER
+**
+**  ATENTION: 
+**  This header is made for the pure purpose of simplifying normal STL functions
+**  with minimal depedencies. 
+**
+**  27.05.2017 | Lucas Barbosa (C) | Open Source Software Movement 
+*/
+
+namespace aux {
+  
+};

@@ -1,4 +1,4 @@
-#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
 
 #IncludeRegexScan: ^.*$
 
@@ -6,8 +6,15 @@
 
 #IncludeRegexTransform: 
 
+<<<<<<< HEAD
 /Users/lucasbarbosa/Documents/MainDrive/Programming/OpenCV/projects/cameraProcessor/cameraProcessor/cameraProcessor.cpp
 opencv2/opencv.hpp
+=======
+/home/lucas/Documents/MainDrive/Programming/OpenCV-3.2/projects/cameraProcessor/cameraProcessor/cameraProcessor.cpp
+opencv2/highgui/highgui.hpp
+-
+opencv2/imgproc/imgproc.hpp
+>>>>>>> 95362959d291264918c3365cd0f5afb6bb3c5c0b
 -
 iostream
 -
@@ -145,8 +152,11 @@ arm_neon.h
 -
 arm_neon.h
 -
+<<<<<<< HEAD
 altivec.h
 -
+=======
+>>>>>>> 95362959d291264918c3365cd0f5afb6bb3c5c0b
 emmintrin.h
 -
 Intrin.h
@@ -155,8 +165,11 @@ arm_neon.h
 -
 arm_neon.h
 -
+<<<<<<< HEAD
 altivec.h
 -
+=======
+>>>>>>> 95362959d291264918c3365cd0f5afb6bb3c5c0b
 
 /usr/local/include/opencv2/core/cv_cpu_helper.h
 
@@ -788,6 +801,10 @@ opencv2/videoio.hpp
 opencv2/highgui/highgui_c.h
 /usr/local/include/opencv2/opencv2/highgui/highgui_c.h
 
+/usr/local/include/opencv2/highgui/highgui.hpp
+opencv2/highgui.hpp
+/usr/local/include/opencv2/highgui/opencv2/highgui.hpp
+
 /usr/local/include/opencv2/highgui/highgui_c.h
 opencv2/core/core_c.h
 /usr/local/include/opencv2/highgui/opencv2/core/core_c.h
@@ -841,6 +858,10 @@ opencv2/highgui.hpp
 /usr/local/include/opencv2/opencv2/highgui.hpp
 opencv2/imgproc/imgproc_c.h
 /usr/local/include/opencv2/opencv2/imgproc/imgproc_c.h
+
+/usr/local/include/opencv2/imgproc/imgproc.hpp
+opencv2/imgproc.hpp
+/usr/local/include/opencv2/imgproc/opencv2/imgproc.hpp
 
 /usr/local/include/opencv2/imgproc/imgproc_c.h
 opencv2/imgproc/types_c.h

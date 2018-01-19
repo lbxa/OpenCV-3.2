@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 # Install script for directory: /Users/lucasbarbosa/Documents/MainDrive/Programming/OpenCV/projects/cameraProcessor/cameraProcessor
+=======
+# Install script for directory: /home/lucas/Documents/MainDrive/Programming/OpenCV-3.2/projects/cameraProcessor/cameraProcessor
+>>>>>>> 95362959d291264918c3365cd0f5afb6bb3c5c0b
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -27,9 +31,15 @@ if(NOT CMAKE_INSTALL_COMPONENT)
   endif()
 endif()
 
+<<<<<<< HEAD
 # Is this installation the result of a crosscompile?
 if(NOT DEFINED CMAKE_CROSSCOMPILING)
   set(CMAKE_CROSSCOMPILING "FALSE")
+=======
+# Install shared libraries without execute permission?
+if(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
+  set(CMAKE_INSTALL_SO_NO_EXE "0")
+>>>>>>> 95362959d291264918c3365cd0f5afb6bb3c5c0b
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -40,5 +50,9 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
+<<<<<<< HEAD
 file(WRITE "/Users/lucasbarbosa/Documents/MainDrive/Programming/OpenCV/projects/cameraProcessor/cameraProcessor/${CMAKE_INSTALL_MANIFEST}"
+=======
+file(WRITE "/home/lucas/Documents/MainDrive/Programming/OpenCV-3.2/projects/cameraProcessor/cameraProcessor/${CMAKE_INSTALL_MANIFEST}"
+>>>>>>> 95362959d291264918c3365cd0f5afb6bb3c5c0b
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

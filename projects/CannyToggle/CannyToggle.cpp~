@@ -1,0 +1,30 @@
+/*
+ *  Canny Toggle Project
+ *
+ *  Incorporating <highgui>'s trackbar with a Canny 
+ *  edge, regulated image to test the effects of noise
+ *  reduction in images and video.
+ *
+ *  29.04.2017 | Lucas Barbosa | Open source software
+ */
+
+#include <opencv2/highgui/highgui.hpp>
+#include <opencv2/imgproc/imgproc.hpp>
+
+#include <iostream>
+#include <vector>
+
+using namespace std;
+using namespace cv;
+
+#define ESC_ASCII 27
+
+void toggleCanny (int, void *);
+
+int main (int agrc, char **argv){
+
+  
+  
+  return 0;
+  
+}
