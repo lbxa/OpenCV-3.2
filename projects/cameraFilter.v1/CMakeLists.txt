@@ -1,0 +1,5 @@
+cmake_minimum_required( VERSION 2.8 )
+project( cameraFilter.v1 )
+find_package( OpenCV REQUIRED )
+add_executable( MAIN main.cpp )
+target_link_libraries( MAIN ${OpenCV_LIBS} )
