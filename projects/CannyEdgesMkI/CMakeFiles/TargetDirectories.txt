@@ -1,0 +1,3 @@
+/Users/lucasbarbosa/Documents/MainDrive/Programming/OpenCV/projects/CannyEdgesMkI/CMakeFiles/rebuild_cache.dir
+/Users/lucasbarbosa/Documents/MainDrive/Programming/OpenCV/projects/CannyEdgesMkI/CMakeFiles/edit_cache.dir
+/Users/lucasbarbosa/Documents/MainDrive/Programming/OpenCV/projects/CannyEdgesMkI/CMakeFiles/CannyEdgesMkI.dir

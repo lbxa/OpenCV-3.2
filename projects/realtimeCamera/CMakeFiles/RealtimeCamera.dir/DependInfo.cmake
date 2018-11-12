@@ -4,9 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/lucas/Documents/MainDrive/Programming/OpenCV-3.2/projects/realtimeCamera/realtimeCamera.cpp" "/home/lucas/Documents/MainDrive/Programming/OpenCV-3.2/projects/realtimeCamera/CMakeFiles/RealtimeCamera.dir/realtimeCamera.cpp.o"
+  "/Users/lucasbarbosa/Documents/MainDrive/Programming/OpenCV/projects/realtimeCamera/realtimeCamera.cpp" "/Users/lucasbarbosa/Documents/MainDrive/Programming/OpenCV/projects/realtimeCamera/CMakeFiles/RealtimeCamera.dir/realtimeCamera.cpp.o"
   )
-set(CMAKE_CXX_COMPILER_ID "GNU")
+set(CMAKE_CXX_COMPILER_ID "Clang")
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
